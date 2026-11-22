@@ -894,6 +894,12 @@ CASE_BODY = {
         ],
     },
 }
+
+from content_overrides import apply as _apply_content_overrides
+
+_apply_content_overrides(globals())
+
+
 def article(locale: str, title: str, desc: str, paras: list[str], crumb: str = "glossary.html") -> tuple[str, str, str]:
     main = page_hero(locale, title, desc, crumb) + wrap_body(paras_html(paras))
     return title, desc, main
@@ -915,38 +921,38 @@ def build_industry(locale: str, page: str) -> tuple[str, str, str]:
     descs = {
         "healthcare": t(
             locale,
-            "How hospitals and health systems interpret volatility, uncertainty, complexity, and ambiguity.",
-            "病院・保健システムが四要素をどう捉えるかの実務ガイド。",
-            "Wie Kliniken und Gesundheitssysteme die VUCA-Dimensionen interpretieren.",
-            "医院与卫生体系如何理解并应对四维挑战。",
+            "How hospitals and health systems interpret and respond to volatility, uncertainty, complexity, and ambiguity.",
+            "病院・保健システムがVUCA四要素をどう解釈し対応するかの実務ガイド。",
+            "Wie Kliniken und Gesundheitssysteme Volatilität, Unsicherheit, Komplexität und Mehrdeutigkeit deuten und handeln.",
+            "医院与卫生体系如何理解并应对易变性、不确定性、复杂性与模糊性。",
         ),
         "finance": t(
             locale,
-            "Practical VUCA analysis for banks, insurers, and capital markets.",
-            "銀行・保険・資本市場向けのVUCA実務分析。",
-            "Praktische VUCA-Analyse für Banken, Versicherer und Kapitalmärkte.",
-            "面向银行、保险与资本市场的 VUCA 实务分析。",
+            "Practical VUCA analysis and response patterns for banks, insurers, and capital markets.",
+            "銀行・保険・資本市場向けのVUCA実務分析と対応パターン。",
+            "Praktische VUCA-Analyse und Antwortmuster für Banken, Versicherer und Kapitalmärkte.",
+            "面向银行、保险与资本市场的 VUCA 实务分析与应对模式。",
         ),
         "supply-chain": t(
             locale,
-            "Resilience patterns for global logistics and manufacturing networks.",
-            "グローバル物流・製造ネットワークのレジリエンス。",
-            "Resilienzmuster für globale Logistik und Fertigungsnetzwerke.",
-            "全球物流与制造网络的韧性模式。",
+            "Resilience patterns for global logistics and manufacturing networks under supply-chain VUCA.",
+            "サプライチェーンVUCA下のグローバル物流・製造ネットワークのレジリエンス。",
+            "Resilienzmuster für globale Logistik und Fertigung unter Lieferketten-VUCA.",
+            "供应链 VUCA 下全球物流与制造网络的韧性模式。",
         ),
         "tech": t(
             locale,
-            "Product, platform, and engineering leadership under rapid change.",
-            "急速な変化下のプロダクト・プラットフォーム・エンジニアリング統制。",
-            "Produkt-, Plattform- und Engineering-Führung bei raschem Wandel.",
-            "快速变化下的产品、平台与工程领导。",
+            "Product, platform, and engineering leadership under rapid technological and market change.",
+            "急速な技術・市場変化下のプロダクト・プラットフォーム・エンジニアリングリーダーシップ。",
+            "Produkt-, Plattform- und Engineering-Führung bei raschem Technologie- und Marktwandel.",
+            "技术与市场快速变化下的产品、平台与工程领导。",
         ),
         "education": t(
             locale,
-            "Universities and K-12 systems adapting curricula and operations.",
-            "大学・K-12がカリキュラムと運営を適応させる方法。",
-            "Hochschulen und Schulsysteme passen Curricula und Betrieb an.",
-            "高校与大学体系如何调整课程与运营。",
+            "How universities and K-12 systems adapt curricula and operations under educational VUCA.",
+            "教育VUCA下で大学・K-12がカリキュラムと運営を適応させる方法。",
+            "Wie Hochschulen und Schulsysteme Curricula und Betrieb unter Bildungs-VUCA anpassen.",
+            "教育领域 VUCA 下高校与中小学体系如何调整课程与运营。",
         ),
     }
     title, desc = titles[slug], descs[slug]
@@ -1160,10 +1166,10 @@ def build_vuca_prime(locale: str) -> tuple:
     title = t(locale, "VUCA-Prime", "VUCA-Prime", "VUCA-Prime", "VUCA-Prime 对应领导力")
     desc = t(
         locale,
-        "Bob Johansen's counter-capabilities: Vision, Understanding, Clarity, Agility.",
-        "ボブ・ジョハンセンの対応能力：ビジョン・理解・明確性・敏捷性。",
-        "Bob Johansens Gegenfähigkeiten: Vision, Understanding, Clarity, Agility.",
-        "Bob Johansen 的对应能力：愿景、理解、清晰、敏捷。",
+        "Bob Johansen's VUCA-Prime counter-capabilities: Vision, Understanding, Clarity, and Agility.",
+        "ボブ・ジョハンセンのVUCA-Prime対応能力：ビジョン・理解・明確性・敏捷性。",
+        "Bob Johansens VUCA-Prime-Gegenfähigkeiten: Vision, Understanding, Clarity und Agility.",
+        "Bob Johansen 的 VUCA-Prime 对应能力：愿景、理解、清晰与敏捷。",
     )
     rows = card(
         "<table class='min-w-full text-sm border border-gray-200'><thead><tr class='border-b bg-gray-50'>"
@@ -1182,9 +1188,14 @@ def build_vuca_prime(locale: str) -> tuple:
             "VUCA-Prime reframes each disruptive factor as a leadership behavior to cultivate. Vision stabilizes "
             "direction when markets swing; understanding deepens learning when forecasts fail; clarity simplifies "
             "messages when systems tangle; agility speeds adjustment when signals conflict.",
-            "VUCA-Primeは各要因に対応するリーダー行動を育てます。",
-            "VUCA-Prime ordnet jeder Störgröße eine zu entwickelnde Führungskompetenz zu.",
-            "VUCA-Prime 为每种扰动因素对应一种应培养的领导力行为。",
+            "VUCA-Primeは各要因に対応するリーダー行動を育てます。市場が振れるときはビジョンが方向を安定させ、"
+            "予測が外れるときは理解が学習を深め、システムが絡むときは明確性がメッセージを単純化し、"
+            "信号が衝突するときは敏捷性が調整速度を上げます。",
+            "VUCA-Prime ordnet jeder Störgröße eine zu entwickelnde Führungskompetenz zu. Vision stabilisiert Richtung "
+            "bei Marktschwankungen; Understanding vertieft Lernen bei Fehlprognosen; Clarity vereinfacht Botschaften "
+            "bei Verflechtung; Agility beschleunigt Anpassung bei widersprüchlichen Signalen.",
+            "VUCA-Prime 为每种扰动因素对应一种应培养的领导力行为。市场摇摆时愿景稳住方向；"
+            "预测失效时理解加深学习；系统缠结时清晰简化信息；信号冲突时敏捷加快调整。",
         ),
     ]
     main = page_hero(locale, title, desc) + wrap_body(paras_html(paras), h2(t(locale, "Mapping", "対応表", "Zuordnung", "对应表")), rows)
@@ -1195,10 +1206,10 @@ def build_vuca_vs_bani(locale: str) -> tuple:
     title = t(locale, "VUCA vs BANI", "VUCAとBANI", "VUCA vs BANI", "VUCA 与 BANI")
     desc = t(
         locale,
-        "Compare classic VUCA with Jamais Cascio's brittle, anxious, nonlinear, incomprehensible world.",
-        "VUCAとジャマイス・カスキオのBANI世界観を比較。",
-        "Vergleich von VUCA mit Jamais Cascios BANI-Rahmen.",
-        "经典 VUCA 与 Jamais Cascio 的 BANI 对比。",
+        "Compare classic VUCA with Jamais Cascio's BANI: brittle, anxious, nonlinear, incomprehensible.",
+        "古典的VUCAとジャマイス・カスキオのBANI（脆い・不安・非線形・理解不能）を比較します。",
+        "Klassisches VUCA im Vergleich zu Jamais Cascios BANI: brittle, anxious, nonlinear, incomprehensible.",
+        "对照经典 VUCA 与 Jamais Cascio 的 BANI：脆弱、焦虑、非线性、难以理解。",
     )
     paras = [
         t(
@@ -1206,9 +1217,14 @@ def build_vuca_vs_bani(locale: str) -> tuple:
             "VUCA emphasizes diagnostic nuance: leaders decide which dimension dominates. BANI stresses emotional "
             "and systemic fragility after shocks like pandemics—brittle systems, anxious publics, nonlinear cascades, "
             "and incomprehensible narratives.",
-            "VUCAは診断の微分、BANIはショック後の脆さと不安に焦点を当てます。",
-            "VUCA diagnostiziert Nuancen; BANI betont Zerbrechlichkeit und Angst nach Schocks.",
-            "VUCA 强调诊断细分；BANI 强调冲击后的脆弱与焦虑。",
+            "VUCAは診断の微分に焦点を当て、リーダーがどの次元が支配的かを見極めます。"
+            "BANIはパンデミックなどのショック後の感情的・システム的脆さ—"
+            "脆いシステム、不安な公衆、非線形カスケード、理解不能な物語—に焦点を当てます。",
+            "VUCA betont diagnostische Nuancen: Führung entscheidet, welche Dimension dominiert. BANI betont "
+            "emotionale und systemische Fragilität nach Schocks—brüchige Systeme, ängstliche Öffentlichkeiten, "
+            "nichtlineare Kaskaden und unverständliche Narrative.",
+            "VUCA 强调诊断细分，帮助判断哪一维占主导；BANI 强调冲击后的情绪与系统脆弱——"
+            "脆弱系统、焦虑公众、非线性连锁与难以理解的叙事。",
         ),
         p(
             t(
@@ -1226,15 +1242,35 @@ def build_vuca_vs_bani(locale: str) -> tuple:
 
 def build_tuna(locale: str) -> tuple:
     title = t(locale, "TUNA Framework", "TUNAフレームワーク", "TUNA-Rahmen", "TUNA 框架")
-    desc = t(locale, "Turbulent, Uncertain, Novel, Ambiguous—an alternative lens.", "TUNAの四要素。", "TUNA: turbulent, unsicher, neuartig, mehrdeutig.", "TUNA：动荡、不确定、新颖、模糊。")
+    desc = t(
+        locale,
+        "TUNA—Turbulent, Uncertain, Novel, Ambiguous—highlights novelty when historical data is thin.",
+        "TUNA（Turbulent・Uncertain・Novel・Ambiguous）は履歴データが薄いときの新規性を強調するレンズです。",
+        "TUNA—turbulent, unsicher, neuartig, mehrdeutig—betont Neuheit bei dünnen historischen Daten.",
+        "TUNA（动荡、不确定、新颖、模糊）强调历史数据不足时的新颖扰动。",
+    )
     paras = [
         t(
             locale,
             "TUNA highlights novelty: many post-2020 challenges combine familiar uncertainty with unprecedented "
             "technologies or regulations. Practitioners pair TUNA with discovery-driven planning when historical data is thin.",
-            "TUNAは新規性を強調し、履歴データが薄いとき探索型計画と組み合わせます。",
-            "TUNA betont Neuheit; mit discovery-driven Planning bei dünnen Daten kombinieren.",
-            "TUNA 强调新颖性，常与探索式规划结合。",
+            "TUNAは新規性を強調します。2020年以降の課題の多くは、見慣れた不確実性に前例の薄い技術や規制が重なります。"
+            "履歴データが薄いときは探索型計画と組み合わせます。",
+            "TUNA betont Neuheit: viele Herausforderungen nach 2020 verbinden vertraute Unsicherheit mit beispiellosen "
+            "Technologien oder Regeln. Bei dünnen historischen Daten passt discovery-driven Planning.",
+            "TUNA 强调新颖性：许多 2020 年后的挑战，是在熟悉的不确定性之上叠加缺乏先例的技术或监管。"
+            "历史数据不足时，常与探索式规划并用。",
+        ),
+        t(
+            locale,
+            "Use TUNA when the dominant risk is that past analogs mislead—new modalities, new customer behaviors, or "
+            "regulatory firsts. Keep VUCA for dimensional diagnosis; keep TUNA as a novelty flag in portfolio reviews.",
+            "過去の類似が誤導しやすいとき（新モダリティ、新顧客行動、規制の初事例）にTUNAを使います。"
+            "次元診断はVUCA、ポートフォリオ点検の新規性フラグとしてTUNAを併用します。",
+            "Nutzen Sie TUNA, wenn Vergangenheitsanalogien irreführen—neue Modalitäten, Kundenverhalten oder "
+            "regulatorische Premieren. VUCA bleibt die Dimensiondiagnose; TUNA markiert Neuheit im Portfolio.",
+            "当历史类比容易误导时（新模态、新客户行为、监管首例）使用 TUNA。"
+            "用 VUCA 做维度诊断，在组合审视中用 TUNA 标出新颖性。",
         ),
         p(t(locale, f"Overview: {ext(TUNA_SRC, 'Oxford Review on TUNA')}.", f"概要: {ext(TUNA_SRC, 'Oxford Review')}.", f"Überblick: {ext(TUNA_SRC, 'Oxford Review')}.", f"概述：{ext(TUNA_SRC, 'Oxford Review')}。")),
     ]
@@ -1243,15 +1279,35 @@ def build_tuna(locale: str) -> tuple:
 
 def build_rupt(locale: str) -> tuple:
     title = t(locale, "RUPT Framework", "RUPTフレームワーク", "RUPT-Rahmen", "RUPT 框架")
-    desc = t(locale, "Rapid, Unpredictable, Uncertain, Tangled.", "急速・予測不能・不確実・絡み合い。", "Rapid, Unpredictable, Uncertain, Tangled.", "急速、不可预测、不确定、缠结。")
+    desc = t(
+        locale,
+        "RUPT—Rapid, Unpredictable, Uncertain, Tangled—for teams under constant priority rewiring.",
+        "RUPT（急速・予測不能・不確実・絡み合い）は優先度が絶えず組み替わるチーム設計向けです。",
+        "RUPT—Rapid, Unpredictable, Uncertain, Tangled—für Teams unter ständiger Prioritäten-Umbildung.",
+        "RUPT（急速、不可预测、不确定、缠结）面向优先级不断重组的团队运作。",
+    )
     paras = [
         t(
             locale,
             "RUPT is used in organizational design literature to describe teams operating under constant rewiring of "
             "priorities. It pairs well with portfolio governance that caps work-in-progress.",
-            "RUPTは優先度の絶え間ない組み替え下のチーム設計に使われます。",
-            "RUPT beschreibt Teams unter ständig wechselnden Prioritäten.",
-            "RUPT 描述优先级不断重组下的团队运作。",
+            "RUPTは組織デザインの議論で、優先度が絶えず組み替わるチームを記述します。"
+            "進行中作業（WIP）に上限を設けるポートフォリオ統治と相性が良いです。",
+            "RUPT beschreibt in der Organisationsliteratur Teams unter ständiger Umbildung von Prioritäten. "
+            "Es passt zu Portfoliogovernance mit WIP-Limits.",
+            "RUPT 用于组织设计语境，描述优先级不断重组的团队。"
+            "与限制在制品（WIP）的组合治理搭配效果较好。",
+        ),
+        t(
+            locale,
+            "Practically: shorten planning horizons, publish decision logs weekly, and refuse silent scope additions. "
+            "Tangled work needs explicit interface owners more than extra status meetings.",
+            "実務では計画地平を短くし、週次で意思決定ログを公開し、黙ったスコープ追加を拒みます。"
+            "絡み合った仕事には、追加の状況会議より明示的なインターフェース担当が必要です。",
+            "Praxis: kürzere Planungshorizonte, wöchentliche Entscheidungslogs, keine stillen Scope-Erweiterungen. "
+            "Verflochtene Arbeit braucht Interface-Owner mehr als Extra-Statusmeetings.",
+            "实务上：缩短规划视界，每周公开决策日志，拒绝隐性加范围。"
+            "缠结工作更需要明确的接口负责人，而不是更多状态会。",
         ),
         p(t(locale, f"Reference: {ext(RUPT_SRC, 'The Decision Lab')}.", f"参照: {ext(RUPT_SRC, 'The Decision Lab')}.", f"Referenz: {ext(RUPT_SRC, 'The Decision Lab')}.", f"参考：{ext(RUPT_SRC, 'The Decision Lab')}。")),
     ]
@@ -1260,16 +1316,37 @@ def build_rupt(locale: str) -> tuple:
 
 def build_cynefin(locale: str) -> tuple:
     title = t(locale, "Cynefin and VUCA", "CynefinとVUCA", "Cynefin und VUCA", "Cynefin 与 VUCA")
-    desc = t(locale, "When to move from VUCA diagnosis to Cynefin sensemaking.", "VUCA診断からCynefinへ。", "Vom VUCA-Diagnose zu Cynefin.", "何时从 VUCA 转向 Cynefin。")
+    desc = t(
+        locale,
+        "When to move from VUCA environmental diagnosis to Cynefin decision-context sensemaking.",
+        "VUCAの環境診断からCynefinの意思決定コンテキストへ移るタイミング。",
+        "Wann von der VUCA-Umweltdiagnose zum Cynefin-Entscheidungskontext wechseln.",
+        "何时从 VUCA 环境诊断转向 Cynefin 决策情境研判。",
+    )
     paras = [
         t(
             locale,
             "VUCA names environmental traits; Cynefin classifies decision contexts (clear, complicated, complex, chaotic, confused). "
             "Use VUCA to explain why plans wobble, then Cynefin to pick intervention patterns—probe-sense-respond in complexity, "
             "act-sense-respond in chaos.",
-            "VUCAは環境特性、Cynefinは意思決定文脈を分類します。",
-            "VUCA beschreibt Umwelt; Cynefin ordnet Entscheidungskontexte.",
-            "VUCA 描述环境；Cynefin 分类决策情境。",
+            "VUCAは環境特性を名付け、Cynefinは意思決定コンテキスト（明確・煩雑・複雑・混沌・混乱）を分類します。"
+            "計画が揺らぐ理由の説明にVUCAを使い、介入パターンの選択にCynefinを使います—"
+            "複雑では探る・感知・応答、混沌では行動・感知・応答。",
+            "VUCA benennt Umwelteigenschaften; Cynefin ordnet Entscheidungskontexte (klar, kompliziert, komplex, chaotisch, verwirrt). "
+            "Mit VUCA erklären, warum Pläne wanken; mit Cynefin Interventionen wählen—probe-sense-respond in Komplexität, "
+            "act-sense-respond im Chaos.",
+            "VUCA 描述环境特征；Cynefin 分类决策情境（清晰、繁杂、复杂、混沌、困惑）。"
+            "用 VUCA 解释计划为何摇摆，用 Cynefin 选择干预——复杂域探查-感知-响应，混沌域行动-感知-响应。",
+        ),
+        t(
+            locale,
+            "Do not force every issue into one Cynefin domain in a single meeting. Re-sense as evidence arrives; "
+            "confused states need boundary-setting before analysis.",
+            "一度の会議ですべてを単一ドメインに押し込めないでください。証拠が増えたら再センシングし、"
+            "混乱状態では分析前に境界設定が必要です。",
+            "Zwingen Sie nicht jedes Thema in einer Sitzung in eine Domäne. Neu-sensen, wenn Evidenz kommt; "
+            "verwirrte Zustände brauchen zuerst Grenzziehung.",
+            "不要在一次会上把所有问题硬塞进单一域。证据增加后重新研判；困惑态需先划定边界再分析。",
         ),
         p(t(locale, f"Official resource: {ext(CYNEFIN, 'Cynefin.io')}.", f"公式: {ext(CYNEFIN, 'Cynefin.io')}.", f"Offiziell: {ext(CYNEFIN, 'Cynefin.io')}.", f"官方资源：{ext(CYNEFIN, 'Cynefin.io')}。")),
     ]
@@ -1278,7 +1355,7 @@ def build_cynefin(locale: str) -> tuple:
 
 def build_frameworks_comparison(locale: str) -> tuple:
     title = t(locale, "Frameworks Comparison", "フレームワーク比較", "Framework-Vergleich", "框架对比")
-    desc = t(locale, "VUCA, BANI, TUNA, RUPT, and Cynefin at a glance.", "主要フレームの一覧。", "VUCA, BANI, TUNA, RUPT, Cynefin im Überblick.", "五大框架一览。")
+    desc = t(locale, "Side-by-side view of VUCA, BANI, TUNA, RUPT, and Cynefin—focus and when to use each.", "VUCA・BANI・TUNA・RUPT・Cynefinの対照表。主眼と使いどころ。", "Gegenüberstellung von VUCA, BANI, TUNA, RUPT und Cynefin—Fokus und Einsatz.", "VUCA、BANI、TUNA、RUPT 与 Cynefin 对照：侧重点与适用情境。")
     hdr = t(locale, "Framework", "フレーム", "Rahmen", "框架")
     focus = t(locale, "Primary focus", "主眼", "Schwerpunkt", "侧重点")
     when = t(locale, "When to use", "使いどころ", "Einsatz", "适用情境")
@@ -1310,7 +1387,7 @@ def build_frameworks_comparison(locale: str) -> tuple:
 
 def build_glossary(locale: str) -> tuple:
     title = t(locale, "VUCA Glossary", "VUCA用語集", "VUCA-Glossar", "VUCA 术语表")
-    desc = t(locale, "Core terms and links to dimension guides.", "用語と次元ガイドへのリンク。", "Kernbegriffe mit Dimensionsleitfäden.", "核心术语及四维指南链接。")
+    desc = t(locale, "Core VUCA terms with short definitions and links to the four dimension guides.", "VUCAの核心用語、短い定義、四次元ガイドへのリンク。", "Zentrale VUCA-Begriffe mit Kurzdefinitionen und Links zu den vier Dimensionen.", "VUCA 核心术语、简短定义，以及四维指南链接。")
     entries = card(
         "<dl class='space-y-4'>"
         f"<dt class='font-semibold'><a href='volatility.html' class='text-emerald-700 hover:underline'>{t(locale, 'Volatility', '変動性', 'Volatilität', '易变性')}</a></dt>"
@@ -1337,7 +1414,7 @@ def build_dim(locale: str, slug: str) -> tuple:
 
 def build_faq(locale: str) -> tuple:
     title = t(locale, "VUCA FAQ", "VUCA FAQ", "VUCA FAQ", "VUCA 常见问题")
-    desc = t(locale, "Answers on definition, use, and alternatives.", "定義・活用・代替案への回答。", "Antworten zu Definition, Nutzung, Alternativen.", "关于定义、应用与替代框架的问答。")
+    desc = t(locale, "Frequently asked questions on the VUCA definition, practical use, and related frameworks.", "VUCAの定義、実務での使い方、関連枠組みに関するよくある質問。", "Häufige Fragen zu VUCA-Definition, Praxisnutzung und verwandten Frameworks.", "关于 VUCA 定义、实务用法与相关框架的常见问题。")
     qa = FAQ_ITEMS[locale]
     blocks = []
     entities = []
@@ -1362,7 +1439,7 @@ def build_faq(locale: str) -> tuple:
 
 def build_bibliography(locale: str) -> tuple:
     title = t(locale, "Bibliography", "参考文献", "Bibliographie", "参考书目")
-    desc = t(locale, "Linked references used across this knowledge base.", "本ナレッジで用いるリンク付き文献。", "Verlinkte Quellen der Wissensbasis.", "知识库所用链接文献。")
+    desc = t(locale, "Primary linked references used across the VUCA.cc knowledge base for verification.", "VUCA.ccナレッジ全体で参照する、検証可能な主要リンク文献。", "Primäre verlinkte Quellen der VUCA.cc-Wissensbasis zur Nachprüfung.", "VUCA.cc 知识库引用的主要可核验链接文献。")
     items = BIB_ITEMS[locale]
     main = page_hero(locale, title, desc) + wrap_body(ul_items([f"{ext(u, lbl)}" for u, lbl in items]))
     return title, desc, main, None
@@ -1370,50 +1447,88 @@ def build_bibliography(locale: str) -> tuple:
 
 def build_about(locale: str) -> tuple:
     title = t(locale, "About VUCA.cc", "VUCA.ccについて", "Über VUCA.cc", "关于 VUCA.cc")
-    desc = t(locale, "Methodology, sourcing, and language policy.", "方法論・出典・言語方針。", "Methodik, Quellen, Sprachpolitik.", "方法论、出处与语言政策。")
+    desc = t(
+        locale,
+        "VUCA.cc is a professional knowledge resource on VUCA frameworks, leadership, and practical tools.",
+        "VUCA.ccは、実務者向けにVUCAの枠組み・リーダーシップ・実践ツールをまとめた専門ナレッジです。",
+        "VUCA.cc ist eine Fachressource zu VUCA-Frameworks, Führung und Praxiswerkzeugen.",
+        "VUCA.cc 是面向实务者的专业知识资源，涵盖 VUCA 框架、领导力与可落地的工具。",
+    )
     paras = [
         t(
             locale,
-            "VUCA.cc is a static reference built for practitioners. Each article is drafted from primary sources "
-            "(academic journals, official framework sites, and recognized publishers) and cross-checked for consistency across locales.",
-            "VUCA.ccは実務者向け静的リファレンスです。一次資料に基づき各言語で整合を確認します。",
-            "VUCA.cc ist eine statische Referenz für Praktiker, basierend auf Primärquellen.",
-            "VUCA.cc 是面向实务者的静态参考站，内容依据一手资料并跨语言校对。",
+            "VUCA.cc helps leaders, facilitators, and learners make sense of Volatility, Uncertainty, Complexity, "
+            "and Ambiguity. The site gathers clear definitions, related frameworks such as BANI and Cynefin, "
+            "industry applications, assessments, and templates you can use in workshops or strategy reviews.",
+            "VUCA.ccは、リーダー・ファシリテーター・学習者が変動性・不確実性・複雑性・曖昧性を理解するための場です。"
+            "定義、BANIやCynefinなどの関連枠組み、産業応用、評価、ワークショップ向けテンプレートを提供します。",
+            "VUCA.cc unterstützt Führungskräfte, Facilitatoren und Lernende dabei, Volatilität, Unsicherheit, "
+            "Komplexität und Mehrdeutigkeit zu verstehen. Sie finden Definitionen, verwandte Frameworks wie BANI "
+            "und Cynefin, Branchenanwendungen, Assessments und Workshop-Vorlagen.",
+            "VUCA.cc 面向领导者、引导者和学习者，帮助理解易变性、不确定性、复杂性与模糊性。"
+            "站点提供清晰定义、BANI 与 Cynefin 等相关框架、行业应用、评估工具与可用于研讨的模板。",
         ),
         t(
             locale,
-            "English is the source-of-record for information architecture. Japanese, German, and Simplified Chinese pages "
-            "mirror that structure; depth parity is an ongoing program—legacy longform and industry guides are prioritized "
-            "for full localization, while newer knowledge stubs continue to expand.",
-            "英語が情報設計の基準です。日・独・中は構造をミラーし、長文と産業ガイドの完全ローカライズを優先、新規ナレッジは拡充中です。",
-            "Englisch ist die Referenz-IA. JA/DE/ZH spiegeln die Struktur; Tiefenparität ist laufend—Longform und Branchen zuerst, neue Knowledge-Seiten werden ausgebaut.",
-            "英语为信息架构基准。日/德/中镜像同一结构；内容深度对齐是持续工作——优先完善长文与行业指南，新知识页持续加厚。",
+            "Content draws on widely cited publications and institutional sources—including Harvard Business Review, "
+            "leadership research institutes, and public reference works—and links out so you can verify context yourself. "
+            "Pages are available in English, Japanese, German, and Simplified Chinese.",
+            "内容はHarvard Business Review、リーダーシップ研究機関、公開リファレンスなど広く参照される資料に依拠し、"
+            "検証できるよう出典へリンクします。英語・日本語・ドイツ語・簡体字中国語で利用できます。",
+            "Die Inhalte stützen sich auf häufig zitierte Publikationen und Institutionen—darunter Harvard Business Review, "
+            "Führungsforschungsinstitute und öffentliche Nachschlagewerke—und verlinken auf die Quellen. "
+            "Verfügbar auf Englisch, Japanisch, Deutsch und Vereinfachtem Chinesisch.",
+            "内容参考被广泛引用的出版物与机构资料（含《哈佛商业评论》、领导力研究机构与公开辞书等），并提供外链便于核对。"
+            "支持英语、日语、德语与简体中文。",
         ),
-        p(f"{t(locale, 'Last content refresh', '最終更新', 'Letzte inhaltliche Aktualisierung', '内容最近更新')}: {LASTMOD}"),
+        t(
+            locale,
+            "If you are new here, start with What is VUCA, then explore the framework guide, leadership pages, "
+            "or the self-assessment. For comparisons with adjacent models, open the frameworks matrix.",
+            "初めての方は「VUCAとは」から始め、フレームワーク、リーダーシップ、自己評価へ進んでください。"
+            "関連モデルとの比較はフレームワーク一覧を参照してください。",
+            "Neu hier? Beginnen Sie mit „Was ist VUCA“, danach Framework, Führung oder Assessment. "
+            "Vergleiche mit verwandten Modellen finden Sie in der Framework-Matrix.",
+            "新访问者可从「什么是 VUCA」开始，再阅读框架指南、领导力或自评工具；"
+            "若需与相邻模型对比，请打开框架对照表。",
+        ),
     ]
     return *article(locale, title, desc, paras), None
 
 
 def build_editorial(locale: str) -> tuple:
     title = t(locale, "Editorial Standards", "編集方針", "Redaktionelle Standards", "编辑标准")
-    desc = t(locale, "Quality bar and publishing cadence.", "品質基準と公開ペース。", "Qualitätsmaßstab und Erscheinungsrhythmus.", "质量门槛与发布节奏。")
+    desc = t(
+        locale,
+        "How VUCA.cc keeps definitions accurate, examples concrete, and sources open to verification.",
+        "定義の正確さ、具体的な事例、検証可能な出典を保つ方針。",
+        "Wie VUCA.cc Definitionen präzise, Beispiele konkret und Quellen nachprüfbar hält.",
+        "VUCA.cc 如何保持定义准确、案例具体、出处可核验。",
+    )
     paras = [
         t(
             locale,
-            "We prioritize primary citations, avoid decorative UI clutter, and keep examples traceable. "
-            "Industry and case articles are reviewed quarterly; at least one new case study ships every quarter.",
-            "一次出典を優先し、四半期ごとに産業・事例記事を更新、毎四半期少なくとも1事例を追加します。",
-            "Primärzitate, quartalsweise Branchen-/Fall-Reviews, mindestens ein neuer Fall pro Quartal.",
-            "优先引用一手文献，每季度复审行业与案例稿，每季至少新增一则案例。",
+            "Articles should explain concepts in plain language, separate diagnosis from prescription, and point to "
+            "recognizable sources when a claim depends on a particular author or institution. Examples should name "
+            "a real context—industry, event type, or operating constraint—rather than abstract slogans.",
+            "記事は平易な言葉で概念を説明し、診断と処方を分け、特定の著者・機関に依る主張には確認できる出典を示します。"
+            "事例は業界・出来事・制約など具体的な文脈を示し、抽象的なスローガンに留めません。",
+            "Beiträge erklären Konzepte klar, trennen Diagnose von Handlungsempfehlung und nennen nachvollziehbare "
+            "Quellen, wenn Aussagen auf Autoren oder Institutionen beruhen. Beispiele nennen konkrete Kontexte—"
+            "Branche, Ereignistyp oder Betriebsbedingung—statt leerer Schlagworte.",
+            "文章用平实语言解释概念，区分「诊断」与「处方」；涉及特定作者或机构的论断应给出可核对出处。"
+            "案例应指向真实情境（行业、事件类型或运营约束），避免空洞口号。",
         ),
         t(
             locale,
-            "Authority building cadence: refresh dimension examples, keep bibliography links live, and share "
-            "comparison tables and templates with educators, leadership communities, and curriculum lists. "
-            "run link and SEO parity checks before each publish.",
-            "権威構築：次元事例の更新、文献リンク点検、比較表・テンプレの共有。公開前にリンクとSEO整合を点検。",
-            "Autoritätsaufbau: Dimensionen aktualisieren, Bibliografie prüfen, Vergleiche/Templates teilen; vor Publish Link- und SEO-Checks.",
-            "权威建设节奏：刷新维度案例、核验文献链接、向教育与领导力社群分享对比表与模板；发布前做链接与 SEO 一致性检查。",
+            "We update industry notes and case studies on a regular cycle so references stay current with how organizations "
+            "actually face disruption. Bibliography links are kept live; broken or outdated citations are replaced when found.",
+            "産業ノートと事例は定期的に見直し、組織が実際に直面する変化と整合させます。"
+            "文献リンクは有効に保ち、破損・陳腐化した出典は発見次第差し替えます。",
+            "Branchennotizen und Fallstudien werden regelmäßig aktualisiert, damit Bezüge zur Praxis aktuell bleiben. "
+            "Bibliografielinks bleiben aktiv; defekte oder veraltete Nachweise werden ersetzt.",
+            "行业笔记与案例按周期更新，使引用与组织面对的真实变化保持一致。"
+            "文献链接保持可用；发现失效或过时出处即予更换。",
         ),
     ]
     return *article(locale, title, desc, paras), None
@@ -1421,7 +1536,7 @@ def build_editorial(locale: str) -> tuple:
 
 def build_templates(locale: str) -> tuple:
     title = t(locale, "VUCA Templates", "VUCAテンプレート", "VUCA-Vorlagen", "VUCA 模板")
-    desc = t(locale, "Printable checklists for workshops.", "ワークショップ用チェックリスト。", "Druckbare Checklisten.", "可打印研讨清单。")
+    desc = t(locale, "Printable VUCA scorecard, scenario, and team-agility checklists for workshops.", "ワークショップ向けの印刷可能なスコアカード・シナリオ・チーム敏捷チェックリスト。", "Druckbare Scorecard-, Szenario- und Team-Agilitäts-Checklisten für Workshops.", "面向研讨的可打印记分卡、情景与团队敏捷清单。")
     c1 = card(
         h2(t(locale, "VUCA scorecard", "VUCAスコアカード", "VUCA-Scorecard", "VUCA 记分卡"))
         + ul_items(
@@ -1456,7 +1571,7 @@ def build_templates(locale: str) -> tuple:
 
 def build_org_assessment(locale: str) -> tuple:
     title = t(locale, "Organizational VUCA Diagnostic", "組織VUCA診断", "Organisations-VUCA-Diagnose", "组织 VUCA 诊断")
-    desc = t(locale, "Structured checklist with manual scoring—no automated quiz.", "自動採点なしの構造化チェックリスト。", "Strukturierte Checkliste ohne Auto-Quiz.", "结构化清单与手工评分，无自动测验。")
+    desc = t(locale, "A 16-item organizational VUCA diagnostic with manual scoring—no automated quiz.", "16項目の組織VUCA診断。手動採点、自動クイズなし。", "16-Punkte-Organisationsdiagnose mit manueller Bewertung—ohne Auto-Quiz.", "16 项组织 VUCA 诊断清单，手工评分，无自动测验。")
     guide = card(
         h2(t(locale, "Scoring guide", "採点ガイド", "Bewertungsleitfaden", "评分说明"))
         + paras_html(

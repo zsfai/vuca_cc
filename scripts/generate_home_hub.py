@@ -117,10 +117,10 @@ def build(loc: str) -> tuple[str, str, str]:
     )
     about_note = t(
         loc,
-        f'Methodology and sourcing: <a class="text-emerald-700 underline" href="about.html">About</a> · <a class="text-emerald-700 underline" href="editorial.html">Editorial standards</a> · Last updated {LASTMOD}',
-        f'方法論: <a class="text-emerald-700 underline" href="about.html">について</a> · <a class="text-emerald-700 underline" href="editorial.html">編集方針</a> · 更新 {LASTMOD}',
-        f'Methodik: <a class="text-emerald-700 underline" href="about.html">Über uns</a> · <a class="text-emerald-700 underline" href="editorial.html">Editorial</a> · Stand {LASTMOD}',
-        f'方法与来源：<a class="text-emerald-700 underline" href="about.html">关于</a> · <a class="text-emerald-700 underline" href="editorial.html">编辑标准</a> · 更新于 {LASTMOD}',
+        f'<a class="text-emerald-700 underline" href="about.html">About VUCA.cc</a> · <a class="text-emerald-700 underline" href="editorial.html">Editorial standards</a> · Updated {LASTMOD}',
+        f'<a class="text-emerald-700 underline" href="about.html">VUCA.ccについて</a> · <a class="text-emerald-700 underline" href="editorial.html">編集方針</a> · 更新 {LASTMOD}',
+        f'<a class="text-emerald-700 underline" href="about.html">Über VUCA.cc</a> · <a class="text-emerald-700 underline" href="editorial.html">Redaktionelle Standards</a> · Stand {LASTMOD}',
+        f'<a class="text-emerald-700 underline" href="about.html">关于 VUCA.cc</a> · <a class="text-emerald-700 underline" href="editorial.html">编辑标准</a> · 更新于 {LASTMOD}',
     )
 
     main = f'''
