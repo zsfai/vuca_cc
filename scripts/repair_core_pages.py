@@ -42,47 +42,55 @@ DE_DESCRIPTIONS = {
 }
 
 KNOWLEDGE_DESKTOP = {
-    "": """                    <div class="relative group">
-                        <button type="button" class="text-gray-700 hover:text-emerald-600 text-sm font-medium">Knowledge</button>
-                        <div class="hidden group-hover:block absolute left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-1 z-50">
-                            <a href="what-is-vuca.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">What is VUCA</a>
-                            <a href="glossary.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Glossary</a>
-                            <a href="frameworks-comparison.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Frameworks</a>
-                            <a href="faq.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">FAQ</a>
-                            <a href="about.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">About</a>
+    "": """                    <div class="relative">
+                        <button type="button" id="knowledge-button" class="text-gray-700 hover:text-emerald-600 text-sm font-medium focus:outline-none" aria-expanded="false" aria-haspopup="true">Knowledge</button>
+                        <div id="knowledge-menu" class="hidden absolute left-0 top-full pt-1 w-48 z-50">
+                            <div class="bg-white rounded-lg shadow-lg border border-gray-200 py-1">
+                                <a href="what-is-vuca.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">What is VUCA</a>
+                                <a href="glossary.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Glossary</a>
+                                <a href="frameworks-comparison.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Frameworks</a>
+                                <a href="faq.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">FAQ</a>
+                                <a href="about.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">About</a>
+                            </div>
                         </div>
                     </div>
 """,
-    "ja": """                    <div class="relative group">
-                        <button type="button" class="text-gray-700 hover:text-emerald-600 text-sm font-medium">ナレッジ</button>
-                        <div class="hidden group-hover:block absolute left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-1 z-50">
-                            <a href="what-is-vuca.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">VUCAとは</a>
-                            <a href="glossary.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">用語集</a>
-                            <a href="frameworks-comparison.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">比較</a>
-                            <a href="faq.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">FAQ</a>
-                            <a href="about.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">について</a>
+    "ja": """                    <div class="relative">
+                        <button type="button" id="knowledge-button" class="text-gray-700 hover:text-emerald-600 text-sm font-medium focus:outline-none" aria-expanded="false" aria-haspopup="true">ナレッジ</button>
+                        <div id="knowledge-menu" class="hidden absolute left-0 top-full pt-1 w-48 z-50">
+                            <div class="bg-white rounded-lg shadow-lg border border-gray-200 py-1">
+                                <a href="what-is-vuca.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">VUCAとは</a>
+                                <a href="glossary.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">用語集</a>
+                                <a href="frameworks-comparison.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">比較</a>
+                                <a href="faq.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">FAQ</a>
+                                <a href="about.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">について</a>
+                            </div>
                         </div>
                     </div>
 """,
-    "de": """                    <div class="relative group">
-                        <button type="button" class="text-gray-700 hover:text-emerald-600 text-sm font-medium">Wissen</button>
-                        <div class="hidden group-hover:block absolute left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-1 z-50">
-                            <a href="what-is-vuca.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Was ist VUCA</a>
-                            <a href="glossary.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Glossar</a>
-                            <a href="frameworks-comparison.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Frameworks</a>
-                            <a href="faq.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">FAQ</a>
-                            <a href="about.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Über uns</a>
+    "de": """                    <div class="relative">
+                        <button type="button" id="knowledge-button" class="text-gray-700 hover:text-emerald-600 text-sm font-medium focus:outline-none" aria-expanded="false" aria-haspopup="true">Wissen</button>
+                        <div id="knowledge-menu" class="hidden absolute left-0 top-full pt-1 w-48 z-50">
+                            <div class="bg-white rounded-lg shadow-lg border border-gray-200 py-1">
+                                <a href="what-is-vuca.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Was ist VUCA</a>
+                                <a href="glossary.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Glossar</a>
+                                <a href="frameworks-comparison.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Frameworks</a>
+                                <a href="faq.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">FAQ</a>
+                                <a href="about.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Über uns</a>
+                            </div>
                         </div>
                     </div>
 """,
-    "zh": """                    <div class="relative group">
-                        <button type="button" class="text-gray-700 hover:text-emerald-600 text-sm font-medium">知识库</button>
-                        <div class="hidden group-hover:block absolute left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-1 z-50">
-                            <a href="what-is-vuca.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">什么是 VUCA</a>
-                            <a href="glossary.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">术语表</a>
-                            <a href="frameworks-comparison.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">框架对比</a>
-                            <a href="faq.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">常见问题</a>
-                            <a href="about.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">关于</a>
+    "zh": """                    <div class="relative">
+                        <button type="button" id="knowledge-button" class="text-gray-700 hover:text-emerald-600 text-sm font-medium focus:outline-none" aria-expanded="false" aria-haspopup="true">知识库</button>
+                        <div id="knowledge-menu" class="hidden absolute left-0 top-full pt-1 w-48 z-50">
+                            <div class="bg-white rounded-lg shadow-lg border border-gray-200 py-1">
+                                <a href="what-is-vuca.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">什么是 VUCA</a>
+                                <a href="glossary.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">术语表</a>
+                                <a href="frameworks-comparison.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">框架对比</a>
+                                <a href="faq.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">常见问题</a>
+                                <a href="about.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">关于</a>
+                            </div>
                         </div>
                     </div>
 """,
@@ -162,17 +170,31 @@ def fix_main(html: str) -> str:
 
 
 def ensure_knowledge_nav(html: str, locale: str) -> str:
-    if "group-hover:block" in html and "glossary.html" in html and any(
-        x in html for x in ("Knowledge", "ナレッジ", "Wissen", "知识库")
-    ):
+    # Upgrade hover-only knowledge menus to clickable ones
+    if 'id="knowledge-button"' in html and 'id="knowledge-menu"' in html and "group-hover:block" not in html:
         return html
+    if "group-hover:block" in html and "glossary.html" in html:
+        html = re.sub(
+            r'<div class="relative group">\s*<button type="button"[^>]*>.*?</button>\s*<div class="hidden group-hover:block absolute left-0 mt-2 w-48[^"]*"[^>]*>[\s\S]*?</div>\s*</div>',
+            KNOWLEDGE_DESKTOP[locale].rstrip(),
+            html,
+            count=1,
+        )
+        if 'id="knowledge-button"' in html:
+            return html
     desk = KNOWLEDGE_DESKTOP[locale]
-    if 'id="lang-button"' in html:
+    if 'id="lang-button"' in html and 'id="knowledge-button"' not in html:
         html = html.replace(
             '<div class="relative ml-4">',
             desk + '                    <div class="relative ml-4">',
             1,
         )
+        if desk.strip() not in html and 'id="knowledge-button"' not in html:
+            html = html.replace(
+                '<div class="relative ml-2">',
+                desk + '                    <div class="relative ml-2">',
+                1,
+            )
     mob = KNOWLEDGE_MOBILE[locale]
     marker = 'uppercase tracking-wider">Language</div>'
     alt_markers = [

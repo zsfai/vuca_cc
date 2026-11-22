@@ -110,14 +110,16 @@
                     <a href="examples.html" class="text-gray-700 hover:text-emerald-600">Beispiele</a>
                     <a href="resources.html" class="text-gray-700 hover:text-emerald-600">Ressourcen</a>
                     <a href="assessment.html" class="text-gray-700 hover:text-emerald-600">Assessment</a>
-                    <div class="relative group">
-                        <button type="button" class="text-gray-700 hover:text-emerald-600 text-sm font-medium">Wissen</button>
-                        <div class="hidden group-hover:block absolute left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-1 z-50">
-                            <a href="what-is-vuca.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">What is VUCA</a>
-                            <a href="glossary.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Glossar</a>
-                            <a href="frameworks-comparison.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Frameworks</a>
-                            <a href="faq.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">FAQ</a>
-                            <a href="about.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Über uns</a>
+                                        <div class="relative">
+                        <button type="button" id="knowledge-button" class="text-gray-700 hover:text-emerald-600 text-sm font-medium focus:outline-none" aria-expanded="false" aria-haspopup="true">Wissen</button>
+                        <div id="knowledge-menu" class="hidden absolute left-0 top-full pt-1 w-48 z-50">
+                            <div class="bg-white rounded-lg shadow-lg border border-gray-200 py-1">
+                                <a href="what-is-vuca.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Was ist VUCA</a>
+                                <a href="glossary.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Glossar</a>
+                                <a href="frameworks-comparison.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Frameworks</a>
+                                <a href="faq.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">FAQ</a>
+                                <a href="about.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Über uns</a>
+                            </div>
                         </div>
                     </div>
                     <div class="relative ml-2">
@@ -230,7 +232,7 @@
             </div>
         </div>
     </footer>
-    <script>
+        <script>
         (function () {
             const mobileMenuButton = document.getElementById('mobile-menu-button');
             const mobileMenu = document.getElementById('mobile-menu');
@@ -238,6 +240,8 @@
             const closeIcon = document.getElementById('close-icon');
             const langButton = document.getElementById('lang-button');
             const langMenu = document.getElementById('lang-menu');
+            const knowledgeButton = document.getElementById('knowledge-button');
+            const knowledgeMenu = document.getElementById('knowledge-menu');
             if (mobileMenuButton && mobileMenu) {
                 mobileMenuButton.addEventListener('click', () => {
                     mobileMenu.classList.toggle('hidden');
@@ -245,17 +249,36 @@
                     if (closeIcon) closeIcon.classList.toggle('hidden');
                 });
             }
+            function closeLang() {
+                if (langMenu) langMenu.classList.add('hidden');
+            }
+            function closeKnowledge() {
+                if (knowledgeMenu) knowledgeMenu.classList.add('hidden');
+                if (knowledgeButton) knowledgeButton.setAttribute('aria-expanded', 'false');
+            }
             if (langButton && langMenu) {
                 langButton.addEventListener('click', (e) => {
                     e.stopPropagation();
+                    closeKnowledge();
                     langMenu.classList.toggle('hidden');
                 });
-                document.addEventListener('click', (e) => {
-                    if (!langButton.contains(e.target) && !langMenu.contains(e.target)) {
-                        langMenu.classList.add('hidden');
-                    }
+            }
+            if (knowledgeButton && knowledgeMenu) {
+                knowledgeButton.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    closeLang();
+                    const open = knowledgeMenu.classList.toggle('hidden') === false;
+                    knowledgeButton.setAttribute('aria-expanded', open ? 'true' : 'false');
                 });
             }
+            document.addEventListener('click', (e) => {
+                if (langButton && langMenu && !langButton.contains(e.target) && !langMenu.contains(e.target)) {
+                    closeLang();
+                }
+                if (knowledgeButton && knowledgeMenu && !knowledgeButton.contains(e.target) && !knowledgeMenu.contains(e.target)) {
+                    closeKnowledge();
+                }
+            });
             const parts = window.location.pathname.replace(/\/+$/, '').split('/').filter(Boolean);
             let page = 'index.html';
             if (parts.length === 0) page = 'index.html';
