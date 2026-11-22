@@ -1,189 +1,1462 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://vuca.cc/</loc>
-    <lastmod>2026-01-02</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://vuca.cc/framework.html</loc>
-    <lastmod>2026-01-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://vuca.cc/leadership.html</loc>
-    <lastmod>2026-01-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://vuca.cc/assessment.html</loc>
-    <lastmod>2026-01-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://vuca.cc/action-guide.html</loc>
-    <lastmod>2026-01-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://vuca.cc/examples.html</loc>
-    <lastmod>2026-01-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://vuca.cc/resources.html</loc>
-    <lastmod>2026-01-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/"/>
   </url>
   <url>
     <loc>https://vuca.cc/ja/</loc>
-    <lastmod>2026-01-02</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://vuca.cc/ja/index.html</loc>
-    <lastmod>2026-01-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://vuca.cc/ja/framework.html</loc>
-    <lastmod>2026-01-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://vuca.cc/ja/leadership.html</loc>
-    <lastmod>2026-01-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://vuca.cc/ja/assessment.html</loc>
-    <lastmod>2026-01-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://vuca.cc/ja/action-guide.html</loc>
-    <lastmod>2026-01-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vuca.cc/ja/examples.html</loc>
-    <lastmod>2026-01-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vuca.cc/ja/resources.html</loc>
-    <lastmod>2026-01-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/"/>
   </url>
   <url>
     <loc>https://vuca.cc/de/</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://vuca.cc/de/index.html</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://vuca.cc/de/framework.html</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://vuca.cc/de/leadership.html</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://vuca.cc/de/assessment.html</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://vuca.cc/de/action-guide.html</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vuca.cc/de/examples.html</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vuca.cc/de/resources.html</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/"/>
   </url>
   <url>
     <loc>https://vuca.cc/zh/</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/"/>
   </url>
   <url>
-    <loc>https://vuca.cc/zh/index.html</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://vuca.cc/framework.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/framework.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/framework.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/framework.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/framework.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/framework.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/framework.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/framework.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/framework.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/framework.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/framework.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/framework.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/framework.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/framework.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/framework.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/framework.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/framework.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/framework.html"/>
   </url>
   <url>
     <loc>https://vuca.cc/zh/framework.html</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/framework.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/framework.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/framework.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/framework.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/framework.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/leadership.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/leadership.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/leadership.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/leadership.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/leadership.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/leadership.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/leadership.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/leadership.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/leadership.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/leadership.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/leadership.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/leadership.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/leadership.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/leadership.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/leadership.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/leadership.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/leadership.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/leadership.html"/>
   </url>
   <url>
     <loc>https://vuca.cc/zh/leadership.html</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/leadership.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/leadership.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/leadership.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/leadership.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/leadership.html"/>
   </url>
   <url>
-    <loc>https://vuca.cc/zh/assessment.html</loc>
-    <lastmod>2026-06-01</lastmod>
+    <loc>https://vuca.cc/action-guide.html</loc>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/action-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/action-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/action-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/action-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/action-guide.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/action-guide.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/action-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/action-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/action-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/action-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/action-guide.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/action-guide.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/action-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/action-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/action-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/action-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/action-guide.html"/>
   </url>
   <url>
     <loc>https://vuca.cc/zh/action-guide.html</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/action-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/action-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/action-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/action-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/action-guide.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/examples.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/examples.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/examples.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/examples.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/examples.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/examples.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/examples.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/examples.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/examples.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/examples.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/examples.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/examples.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/examples.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/examples.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/examples.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/examples.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/examples.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/examples.html"/>
   </url>
   <url>
     <loc>https://vuca.cc/zh/examples.html</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/examples.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/examples.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/examples.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/examples.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/examples.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/resources.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/resources.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/resources.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/resources.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/resources.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/resources.html"/>
   </url>
   <url>
     <loc>https://vuca.cc/zh/resources.html</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-11-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/resources.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/assessment.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/assessment.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/assessment.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/assessment.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/assessment.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/assessment.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/zh/assessment.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/assessment.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/about.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/about.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/about.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/about.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/about.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/about.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/zh/about.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/about.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/what-is-vuca.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/what-is-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/what-is-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/what-is-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/what-is-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/what-is-vuca.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/what-is-vuca.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/what-is-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/what-is-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/what-is-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/what-is-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/what-is-vuca.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/what-is-vuca.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/what-is-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/what-is-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/what-is-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/what-is-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/what-is-vuca.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/zh/what-is-vuca.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/what-is-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/what-is-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/what-is-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/what-is-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/what-is-vuca.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/history.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/history.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/history.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/history.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/history.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/history.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/history.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/history.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/history.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/history.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/history.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/history.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/history.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/history.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/history.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/history.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/history.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/history.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/zh/history.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/history.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/history.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/history.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/history.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/history.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/vuca-prime.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/vuca-prime.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/vuca-prime.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/vuca-prime.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/vuca-prime.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/vuca-prime.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/vuca-prime.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/vuca-prime.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/vuca-prime.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/vuca-prime.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/vuca-prime.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/vuca-prime.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/vuca-prime.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/vuca-prime.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/vuca-prime.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/vuca-prime.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/vuca-prime.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/vuca-prime.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/zh/vuca-prime.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/vuca-prime.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/vuca-prime.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/vuca-prime.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/vuca-prime.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/vuca-prime.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/vuca-vs-bani.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/vuca-vs-bani.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/vuca-vs-bani.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/vuca-vs-bani.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/vuca-vs-bani.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/vuca-vs-bani.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/vuca-vs-bani.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/vuca-vs-bani.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/vuca-vs-bani.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/vuca-vs-bani.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/vuca-vs-bani.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/vuca-vs-bani.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/vuca-vs-bani.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/vuca-vs-bani.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/vuca-vs-bani.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/vuca-vs-bani.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/vuca-vs-bani.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/vuca-vs-bani.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/zh/vuca-vs-bani.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/vuca-vs-bani.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/vuca-vs-bani.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/vuca-vs-bani.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/vuca-vs-bani.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/vuca-vs-bani.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/tuna.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/tuna.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/tuna.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/tuna.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/tuna.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/tuna.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/tuna.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/tuna.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/tuna.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/tuna.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/tuna.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/tuna.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/tuna.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/tuna.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/tuna.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/tuna.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/tuna.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/tuna.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/zh/tuna.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/tuna.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/tuna.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/tuna.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/tuna.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/tuna.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/rupt.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/rupt.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/rupt.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/rupt.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/rupt.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/rupt.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/rupt.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/rupt.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/rupt.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/rupt.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/rupt.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/rupt.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/rupt.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/rupt.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/rupt.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/rupt.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/rupt.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/rupt.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/zh/rupt.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/rupt.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/rupt.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/rupt.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/rupt.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/rupt.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/cynefin-and-vuca.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/cynefin-and-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/cynefin-and-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/cynefin-and-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/cynefin-and-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/cynefin-and-vuca.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/cynefin-and-vuca.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/cynefin-and-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/cynefin-and-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/cynefin-and-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/cynefin-and-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/cynefin-and-vuca.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/cynefin-and-vuca.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/cynefin-and-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/cynefin-and-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/cynefin-and-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/cynefin-and-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/cynefin-and-vuca.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/zh/cynefin-and-vuca.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/cynefin-and-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/cynefin-and-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/cynefin-and-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/cynefin-and-vuca.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/cynefin-and-vuca.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/frameworks-comparison.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/frameworks-comparison.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/frameworks-comparison.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/frameworks-comparison.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/frameworks-comparison.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/frameworks-comparison.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/frameworks-comparison.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/frameworks-comparison.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/frameworks-comparison.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/frameworks-comparison.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/frameworks-comparison.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/frameworks-comparison.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/frameworks-comparison.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/frameworks-comparison.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/frameworks-comparison.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/frameworks-comparison.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/frameworks-comparison.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/frameworks-comparison.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/zh/frameworks-comparison.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/frameworks-comparison.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/frameworks-comparison.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/frameworks-comparison.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/frameworks-comparison.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/frameworks-comparison.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/glossary.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/glossary.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/glossary.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/glossary.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/glossary.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/glossary.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/zh/glossary.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/glossary.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/glossary.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/volatility.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/volatility.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/volatility.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/volatility.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/volatility.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/volatility.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/volatility.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/volatility.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/volatility.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/volatility.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/volatility.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/volatility.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/volatility.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/volatility.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/volatility.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/volatility.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/volatility.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/volatility.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/zh/volatility.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/volatility.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/volatility.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/volatility.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/volatility.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/volatility.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/uncertainty.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/uncertainty.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/uncertainty.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/uncertainty.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/uncertainty.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/uncertainty.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/uncertainty.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/uncertainty.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/uncertainty.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/uncertainty.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/uncertainty.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/uncertainty.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/uncertainty.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/uncertainty.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/uncertainty.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/uncertainty.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/uncertainty.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/uncertainty.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/zh/uncertainty.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/uncertainty.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/uncertainty.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/uncertainty.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/uncertainty.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/uncertainty.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/complexity.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/complexity.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/complexity.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/complexity.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/complexity.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/complexity.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/complexity.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/complexity.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/complexity.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/complexity.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/complexity.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/complexity.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/complexity.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/complexity.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/complexity.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/complexity.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/complexity.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/complexity.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/zh/complexity.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/complexity.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/complexity.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/complexity.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/complexity.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/complexity.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ambiguity.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/ambiguity.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/ambiguity.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/ambiguity.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/ambiguity.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/ambiguity.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/ambiguity.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/ambiguity.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/ambiguity.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/ambiguity.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/ambiguity.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/ambiguity.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/ambiguity.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/ambiguity.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/ambiguity.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/ambiguity.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/ambiguity.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/ambiguity.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/zh/ambiguity.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/ambiguity.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/ambiguity.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/ambiguity.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/ambiguity.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/ambiguity.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/faq.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/faq.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/faq.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/faq.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/faq.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/faq.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/zh/faq.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/faq.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/bibliography.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/bibliography.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/bibliography.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/bibliography.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/bibliography.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/bibliography.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/bibliography.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/bibliography.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/bibliography.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/bibliography.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/bibliography.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/bibliography.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/bibliography.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/bibliography.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/bibliography.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/bibliography.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/bibliography.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/bibliography.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/zh/bibliography.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/bibliography.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/bibliography.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/bibliography.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/bibliography.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/bibliography.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/industry-healthcare.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/industry-healthcare.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/industry-healthcare.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/industry-healthcare.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/industry-healthcare.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/industry-healthcare.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/industry-healthcare.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/industry-healthcare.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/industry-healthcare.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/industry-healthcare.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/industry-healthcare.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/industry-healthcare.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/industry-healthcare.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/industry-healthcare.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/industry-healthcare.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/industry-healthcare.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/industry-healthcare.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/industry-healthcare.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/zh/industry-healthcare.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/industry-healthcare.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/industry-healthcare.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/industry-healthcare.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/industry-healthcare.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/industry-healthcare.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/industry-finance.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/industry-finance.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/industry-finance.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/industry-finance.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/industry-finance.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/industry-finance.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/industry-finance.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/industry-finance.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/industry-finance.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/industry-finance.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/industry-finance.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/industry-finance.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/industry-finance.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/industry-finance.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/industry-finance.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/industry-finance.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/industry-finance.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/industry-finance.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/zh/industry-finance.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/industry-finance.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/industry-finance.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/industry-finance.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/industry-finance.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/industry-finance.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/industry-supply-chain.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/industry-supply-chain.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/industry-supply-chain.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/industry-supply-chain.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/industry-supply-chain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/industry-supply-chain.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/industry-supply-chain.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/industry-supply-chain.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/industry-supply-chain.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/industry-supply-chain.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/industry-supply-chain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/industry-supply-chain.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/industry-supply-chain.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/industry-supply-chain.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/industry-supply-chain.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/industry-supply-chain.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/industry-supply-chain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/industry-supply-chain.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/zh/industry-supply-chain.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/industry-supply-chain.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/industry-supply-chain.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/industry-supply-chain.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/industry-supply-chain.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/industry-supply-chain.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/industry-tech.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/industry-tech.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/industry-tech.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/industry-tech.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/industry-tech.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/industry-tech.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/industry-tech.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/industry-tech.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/industry-tech.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/industry-tech.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/industry-tech.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/industry-tech.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/industry-tech.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/industry-tech.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/industry-tech.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/industry-tech.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/industry-tech.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/industry-tech.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/zh/industry-tech.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/industry-tech.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/industry-tech.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/industry-tech.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/industry-tech.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/industry-tech.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/industry-education.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/industry-education.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/industry-education.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/industry-education.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/industry-education.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/industry-education.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/industry-education.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/industry-education.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/industry-education.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/industry-education.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/industry-education.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/industry-education.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/industry-education.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/industry-education.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/industry-education.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/industry-education.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/industry-education.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/industry-education.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/zh/industry-education.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/industry-education.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/industry-education.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/industry-education.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/industry-education.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/industry-education.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/templates.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/templates.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/templates.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/templates.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/templates.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/templates.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/templates.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/templates.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/templates.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/templates.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/templates.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/templates.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/templates.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/templates.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/templates.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/templates.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/templates.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/templates.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/zh/templates.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/templates.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/templates.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/templates.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/templates.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/templates.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/org-assessment.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/org-assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/org-assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/org-assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/org-assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/org-assessment.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/org-assessment.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/org-assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/org-assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/org-assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/org-assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/org-assessment.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/org-assessment.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/org-assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/org-assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/org-assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/org-assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/org-assessment.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/zh/org-assessment.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/org-assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/org-assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/org-assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/org-assessment.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/org-assessment.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/case-netflix.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/case-netflix.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/case-netflix.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/case-netflix.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/case-netflix.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/case-netflix.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/case-netflix.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/case-netflix.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/case-netflix.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/case-netflix.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/case-netflix.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/case-netflix.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/case-netflix.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/case-netflix.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/case-netflix.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/case-netflix.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/case-netflix.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/case-netflix.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/zh/case-netflix.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/case-netflix.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/case-netflix.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/case-netflix.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/case-netflix.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/case-netflix.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/case-toyota.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/case-toyota.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/case-toyota.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/case-toyota.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/case-toyota.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/case-toyota.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/case-toyota.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/case-toyota.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/case-toyota.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/case-toyota.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/case-toyota.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/case-toyota.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/case-toyota.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/case-toyota.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/case-toyota.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/case-toyota.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/case-toyota.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/case-toyota.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/zh/case-toyota.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/case-toyota.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/case-toyota.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/case-toyota.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/case-toyota.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/case-toyota.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/editorial.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/editorial.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/editorial.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/editorial.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/editorial.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/editorial.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/ja/editorial.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/editorial.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/editorial.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/editorial.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/editorial.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/editorial.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/de/editorial.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/editorial.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/editorial.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/editorial.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/editorial.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/editorial.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/zh/editorial.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vuca.cc/editorial.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/editorial.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://vuca.cc/de/editorial.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/editorial.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vuca.cc/editorial.html"/>
+  </url>
+  <url>
+    <loc>https://vuca.cc/templates/vuca-scorecard.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
   </url>
 </urlset>

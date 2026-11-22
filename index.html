@@ -3,21 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VUCA</title>
-    <meta name="description" content="Master VUCA: Learn frameworks, leadership strategies, and practical approaches for navigating volatile, uncertain, complex, and ambiguous environments.">
+    <title>VUCA World: Volatility, Uncertainty, Complexity & Ambiguity Guide</title>
+    <meta name="description" content="Professional VUCA knowledge base: definitions, framework comparisons, leadership, industry guides, assessments, and templates in four languages.">
     <link rel="canonical" href="https://vuca.cc/">
+    <link rel="alternate" hreflang="en" href="https://vuca.cc/">
+    <link rel="alternate" hreflang="ja" href="https://vuca.cc/ja/">
+    <link rel="alternate" hreflang="de" href="https://vuca.cc/de/">
+    <link rel="alternate" hreflang="zh-Hans" href="https://vuca.cc/zh/">
+    <link rel="alternate" hreflang="x-default" href="https://vuca.cc/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="VUCA.cc">
+    <meta property="og:title" content="VUCA World: Volatility, Uncertainty, Complexity & Ambiguity Guide">
+    <meta property="og:description" content="Professional VUCA knowledge base: definitions, framework comparisons, leadership, industry guides, assessments, and templates in four languages.">
+    <meta property="og:url" content="https://vuca.cc/">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="https://vuca.cc/V.svg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="VUCA World: Volatility, Uncertainty, Complexity & Ambiguity Guide">
+    <meta name="twitter:description" content="Professional VUCA knowledge base: definitions, framework comparisons, leadership, industry guides, assessments, and templates in four languages.">
+    <meta name="twitter:image" content="https://vuca.cc/V.svg">
+    <meta name="last-modified" content="2026-11-22">
     <link rel="icon" type="image/svg+xml" href="V.svg">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/site.css">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "VUCA.cc",
+      "url": "https://vuca.cc",
+      "logo": "https://vuca.cc/V.svg",
+      "description": "Professional knowledge base for VUCA frameworks, leadership, and practice."
+    },
+    {
+      "@type": "WebSite",
+      "name": "VUCA.cc",
+      "url": "https://vuca.cc",
+      "inLanguage": [
+        "en",
+        "ja",
+        "de",
+        "zh-CN"
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "VUCA.cc",
+        "url": "https://vuca.cc"
+      }
+    }
+  ]
+}
+    </script>
+    <script src="js/site-config.js"></script>
+    <script src="js/analytics.js" defer></script>
 </head>
 <body class="bg-white text-gray-900 overflow-x-hidden">
-    <!-- Navigation -->
     <nav class="border-b border-gray-200 bg-white sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 <div class="flex items-center">
                     <a href="/" class="text-2xl font-bold text-emerald-600">VUCA</a>
                 </div>
-                <div class="hidden md:flex space-x-8 items-center">
+                <div class="hidden lg:flex space-x-6 items-center">
                     <a href="/" class="text-gray-900 hover:text-emerald-600 font-medium">Home</a>
                     <a href="framework.html" class="text-gray-700 hover:text-emerald-600">Framework</a>
                     <a href="leadership.html" class="text-gray-700 hover:text-emerald-600">Leadership</a>
@@ -25,23 +73,31 @@
                     <a href="examples.html" class="text-gray-700 hover:text-emerald-600">Examples</a>
                     <a href="resources.html" class="text-gray-700 hover:text-emerald-600">Resources</a>
                     <a href="assessment.html" class="text-gray-700 hover:text-emerald-600">Assessment</a>
-                    <div class="relative ml-4">
+                    <div class="relative group">
+                        <button type="button" class="text-gray-700 hover:text-emerald-600 text-sm font-medium">Knowledge</button>
+                        <div class="hidden group-hover:block absolute left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-1 z-50">
+                            <a href="what-is-vuca.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">What is VUCA</a>
+                            <a href="glossary.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Glossary</a>
+                            <a href="frameworks-comparison.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Frameworks</a>
+                            <a href="faq.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">FAQ</a>
+                            <a href="about.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">About</a>
+                        </div>
+                    </div>
+                    <div class="relative ml-2">
                         <button id="lang-button" class="flex items-center text-gray-700 hover:text-emerald-600 focus:outline-none">
                             <span class="text-sm font-medium">EN</span>
-                            <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                            </svg>
+                            <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
                         </button>
                         <div id="lang-menu" class="hidden absolute right-0 mt-2 w-36 bg-white rounded-lg shadow-lg border border-gray-200 py-1 z-50">
-                            <a id="lang-link-en" href="/" class="block px-4 py-2 text-sm text-gray-900 bg-emerald-50 font-medium">English</a>
+                            <a id="lang-link-en" href="/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">English</a>
                             <a id="lang-link-ja" href="/ja/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">日本語</a>
                             <a id="lang-link-de" href="/de/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Deutsch</a>
                             <a id="lang-link-zh" href="/zh/" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">中文</a>
                         </div>
                     </div>
                 </div>
-                <div class="md:hidden flex items-center">
-                    <button id="mobile-menu-button" class="text-gray-700 hover:text-emerald-600 focus:outline-none">
+                <div class="lg:hidden flex items-center">
+                    <button id="mobile-menu-button" class="text-gray-700 hover:text-emerald-600 focus:outline-none" aria-label="Menu">
                         <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                             <path id="close-icon" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
@@ -50,7 +106,7 @@
                 </div>
             </div>
         </div>
-        <div id="mobile-menu" class="hidden md:hidden border-t border-gray-200">
+        <div id="mobile-menu" class="hidden lg:hidden border-t border-gray-200">
             <div class="px-2 pt-2 pb-3 space-y-1">
                 <a href="/" class="block px-3 py-2 rounded-md text-gray-900 font-medium bg-emerald-50">Home</a>
                 <a href="framework.html" class="block px-3 py-2 rounded-md text-gray-700 hover:bg-gray-50 hover:text-emerald-600">Framework</a>
@@ -59,1078 +115,202 @@
                 <a href="examples.html" class="block px-3 py-2 rounded-md text-gray-700 hover:bg-gray-50 hover:text-emerald-600">Examples</a>
                 <a href="resources.html" class="block px-3 py-2 rounded-md text-gray-700 hover:bg-gray-50 hover:text-emerald-600">Resources</a>
                 <a href="assessment.html" class="block px-3 py-2 rounded-md text-gray-700 hover:bg-gray-50 hover:text-emerald-600">Assessment</a>
+                <a href="glossary.html" class="block px-3 py-2 rounded-md text-gray-700 hover:bg-gray-50 hover:text-emerald-600">Glossary</a>
+                <a href="frameworks-comparison.html" class="block px-3 py-2 rounded-md text-gray-700 hover:bg-gray-50 hover:text-emerald-600">Frameworks</a>
+                <a href="faq.html" class="block px-3 py-2 rounded-md text-gray-700 hover:bg-gray-50 hover:text-emerald-600">FAQ</a>
+                <a href="about.html" class="block px-3 py-2 rounded-md text-gray-700 hover:bg-gray-50 hover:text-emerald-600">About</a>
                 <div class="border-t border-gray-200 mt-2 pt-2">
                     <div class="px-3 py-2 text-xs font-semibold text-gray-500 uppercase tracking-wider">Language</div>
-                    <a id="lang-link-en-mobile" href="/" class="block px-3 py-2 rounded-md text-gray-900 font-medium bg-emerald-50">English</a>
-                    <a id="lang-link-ja-mobile" href="/ja/" class="block px-3 py-2 rounded-md text-gray-700 hover:bg-gray-50 hover:text-emerald-600">日本語</a>
-                    <a id="lang-link-de-mobile" href="/de/" class="block px-3 py-2 rounded-md text-gray-700 hover:bg-gray-50 hover:text-emerald-600">Deutsch</a>
-                    <a id="lang-link-zh-mobile" href="/zh/" class="block px-3 py-2 rounded-md text-gray-700 hover:bg-gray-50 hover:text-emerald-600">中文</a>
+                    <a id="lang-link-en-mobile" href="/" class="block px-3 py-2 rounded-md text-gray-700 hover:bg-gray-50">English</a>
+                    <a id="lang-link-ja-mobile" href="/ja/" class="block px-3 py-2 rounded-md text-gray-700 hover:bg-gray-50">日本語</a>
+                    <a id="lang-link-de-mobile" href="/de/" class="block px-3 py-2 rounded-md text-gray-700 hover:bg-gray-50">Deutsch</a>
+                    <a id="lang-link-zh-mobile" href="/zh/" class="block px-3 py-2 rounded-md text-gray-700 hover:bg-gray-50">中文</a>
                 </div>
             </div>
         </div>
     </nav>
+    <main id="main-content">
 
-    <!-- Hero Section -->
     <section class="py-20 bg-gradient-to-br from-emerald-50 to-white">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center">
-                <h1 class="text-5xl md:text-6xl font-bold text-gray-900 mb-6">Understanding the VUCA World</h1>
-                <p class="text-xl text-gray-700 mb-4 max-w-3xl mx-auto">Volatility, Uncertainty, Complexity, and Ambiguity define modern business and leadership challenges. Master the frameworks and strategies to thrive in dynamic environments.</p>
-                <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-                    <a href="#assessment-tool" class="px-8 py-3 bg-emerald-600 text-white rounded-lg font-medium hover:bg-emerald-700">Start Assessment</a>
-                    <a href="#what-is-vuca" class="px-8 py-3 border border-gray-300 text-gray-700 rounded-lg font-medium hover:border-emerald-600 hover:text-emerald-600">Learn More</a>
-                </div>
-            </div>
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-5xl md:text-6xl font-bold text-gray-900 mb-6">Understanding the VUCA World</h1>
+        <p class="text-xl text-gray-700 mb-8 max-w-3xl mx-auto leading-relaxed">Volatility, Uncertainty, Complexity, and Ambiguity shape modern strategy and leadership. This site is a structured reference for definitions, related frameworks, practice tools, and industry applications.</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="assessment.html" class="px-8 py-3 bg-emerald-600 text-white rounded-lg font-medium hover:bg-emerald-700">Start assessment</a>
+          <a href="what-is-vuca.html" class="px-8 py-3 border border-gray-300 text-gray-900 rounded-lg font-medium hover:border-emerald-500">What is VUCA</a>
         </div>
+        <p class="mt-6 text-sm text-gray-600">Also explore <a class="text-emerald-700 underline" href="vuca-vs-bani.html">VUCA vs BANI</a>, <a class="text-emerald-700 underline" href="tuna.html">TUNA</a>, <a class="text-emerald-700 underline" href="rupt.html">RUPT</a>, and <a class="text-emerald-700 underline" href="cynefin-and-vuca.html">Cynefin</a>.</p>
+      </div>
     </section>
 
-    <!-- Assessment Tool - Featured Section -->
-    <section id="assessment-tool" class="py-16 bg-white border-b border-gray-200">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-gradient-to-br from-emerald-600 to-emerald-700 rounded-3xl p-8 md:p-12 text-white shadow-xl">
-                <div class="max-w-4xl mx-auto">
-                    <div class="text-center mb-8">
-                        <h2 class="text-4xl md:text-5xl font-bold mb-4">VUCA Leadership Assessment</h2>
-                        <p class="text-xl text-emerald-50 mb-6 max-w-2xl mx-auto">Evaluate your leadership style and discover how well you adapt to volatile, uncertain, complex, and ambiguous environments. Get personalized insights in just 2 minutes.</p>
-                    </div>
-                    
-                    <div class="grid md:grid-cols-3 gap-6 mb-8">
-                        <div class="bg-white bg-opacity-10 backdrop-blur-sm rounded-xl p-6 border border-white border-opacity-20">
-                            <div class="text-3xl font-bold mb-2">12 Questions</div>
-                            <div class="text-emerald-50 text-sm">Quick assessment covering all VUCA dimensions</div>
-                        </div>
-                        <div class="bg-white bg-opacity-10 backdrop-blur-sm rounded-xl p-6 border border-white border-opacity-20">
-                            <div class="text-3xl font-bold mb-2">2 Minutes</div>
-                            <div class="text-emerald-50 text-sm">Complete the assessment and get instant results</div>
-                        </div>
-                        <div class="bg-white bg-opacity-10 backdrop-blur-sm rounded-xl p-6 border border-white border-opacity-20">
-                            <div class="text-3xl font-bold mb-2">Personalized</div>
-                            <div class="text-emerald-50 text-sm">Receive tailored recommendations for improvement</div>
-                        </div>
-                    </div>
-
-                    <div class="text-center">
-                        <a href="assessment.html" class="assessment-button group relative inline-block px-10 py-4 bg-white text-emerald-600 rounded-lg font-bold text-lg transition-all duration-300 hover:bg-emerald-50">
-                            <span class="relative z-10 flex items-center gap-2">
-                                Start Your Assessment Now
-                                <svg class="w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
-                                </svg>
-                            </span>
-                        </a>
-                        <p class="text-emerald-100 text-sm mt-4">Free assessment • No registration required • Instant results</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section class="py-16 bg-white">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-gray-900 mb-8">The four dimensions</h2>
+        <div class="grid md:grid-cols-2 gap-6"><a href="volatility.html" class="block rounded-3xl border border-gray-200 p-6 hover:border-emerald-300 hover:bg-emerald-50/40 transition">
+  <h3 class="text-lg font-bold text-gray-900 mb-2">Volatility</h3>
+  <p class="text-sm text-gray-700 leading-relaxed">Speed and magnitude of change.</p>
+</a><a href="uncertainty.html" class="block rounded-3xl border border-gray-200 p-6 hover:border-emerald-300 hover:bg-emerald-50/40 transition">
+  <h3 class="text-lg font-bold text-gray-900 mb-2">Uncertainty</h3>
+  <p class="text-sm text-gray-700 leading-relaxed">Limited predictability and information gaps.</p>
+</a><a href="complexity.html" class="block rounded-3xl border border-gray-200 p-6 hover:border-emerald-300 hover:bg-emerald-50/40 transition">
+  <h3 class="text-lg font-bold text-gray-900 mb-2">Complexity</h3>
+  <p class="text-sm text-gray-700 leading-relaxed">Interconnected systems without linear cause-effect.</p>
+</a><a href="ambiguity.html" class="block rounded-3xl border border-gray-200 p-6 hover:border-emerald-300 hover:bg-emerald-50/40 transition">
+  <h3 class="text-lg font-bold text-gray-900 mb-2">Ambiguity</h3>
+  <p class="text-sm text-gray-700 leading-relaxed">Unclear meaning and multiple interpretations.</p>
+</a></div>
+        <p class="mt-6 text-sm text-gray-600"><a class="text-emerald-700 underline" href="glossary.html">Full glossary</a></p>
+      </div>
     </section>
 
-    <!-- Key Metrics -->
-    <section class="py-12 border-y border-gray-200 bg-white">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-                <div>
-                    <div class="text-4xl font-bold text-emerald-600">1987</div>
-                    <div class="text-sm text-gray-600 mt-2">Origin in US Army War College</div>
-                </div>
-                <div>
-                    <div class="text-4xl font-bold text-emerald-600">4</div>
-                    <div class="text-sm text-gray-600 mt-2">Core Dimensions</div>
-                </div>
-                <div>
-                    <div class="text-4xl font-bold text-emerald-600">Global</div>
-                    <div class="text-sm text-gray-600 mt-2">Business Framework</div>
-                </div>
-                <div>
-                    <div class="text-4xl font-bold text-emerald-600">2020+</div>
-                    <div class="text-sm text-gray-600 mt-2">Critical for Modern Leadership</div>
-                </div>
-            </div>
-        </div>
+    <section class="py-16 bg-gray-50">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-gray-900 mb-8">Core knowledge</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6"><a href="what-is-vuca.html" class="block rounded-3xl border border-gray-200 p-6 hover:border-emerald-300 hover:bg-emerald-50/40 transition">
+  <h3 class="text-lg font-bold text-gray-900 mb-2">What is VUCA</h3>
+  <p class="text-sm text-gray-700 leading-relaxed">Clear definition, usage, and how to apply the acronym as a diagnostic lens.</p>
+</a><a href="history.html" class="block rounded-3xl border border-gray-200 p-6 hover:border-emerald-300 hover:bg-emerald-50/40 transition">
+  <h3 class="text-lg font-bold text-gray-900 mb-2">Origins and history</h3>
+  <p class="text-sm text-gray-700 leading-relaxed">From Army War College and Bennis/Nanus to business adoption.</p>
+</a><a href="vuca-prime.html" class="block rounded-3xl border border-gray-200 p-6 hover:border-emerald-300 hover:bg-emerald-50/40 transition">
+  <h3 class="text-lg font-bold text-gray-900 mb-2">VUCA Prime</h3>
+  <p class="text-sm text-gray-700 leading-relaxed">Vision, Understanding, Clarity, Agility as leadership responses.</p>
+</a><a href="frameworks-comparison.html" class="block rounded-3xl border border-gray-200 p-6 hover:border-emerald-300 hover:bg-emerald-50/40 transition">
+  <h3 class="text-lg font-bold text-gray-900 mb-2">Framework comparison</h3>
+  <p class="text-sm text-gray-700 leading-relaxed">VUCA vs BANI vs TUNA vs RUPT vs Cynefin in one matrix.</p>
+</a><a href="leadership.html" class="block rounded-3xl border border-gray-200 p-6 hover:border-emerald-300 hover:bg-emerald-50/40 transition">
+  <h3 class="text-lg font-bold text-gray-900 mb-2">VUCA leadership</h3>
+  <p class="text-sm text-gray-700 leading-relaxed">Skills, models, training paths, and common mistakes.</p>
+</a><a href="faq.html" class="block rounded-3xl border border-gray-200 p-6 hover:border-emerald-300 hover:bg-emerald-50/40 transition">
+  <h3 class="text-lg font-bold text-gray-900 mb-2">FAQ</h3>
+  <p class="text-sm text-gray-700 leading-relaxed">Short answers for the questions people and models ask first.</p>
+</a></div>
+      </div>
     </section>
 
-    <!-- What is VUCA -->
-    <section id="what-is-vuca" class="py-20 bg-white">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-bold text-gray-900 mb-12">What is VUCA?</h2>
-            
-            <div class="prose prose-lg max-w-none mb-12">
-                <p class="text-lg text-gray-700 leading-relaxed">VUCA is an acronym that stands for Volatility, Uncertainty, Complexity, and Ambiguity. Originally coined by the U.S. Army War College in 1987, VUCA has become the defining framework for understanding and navigating the challenges of modern business, leadership, and strategic planning.</p>
-            </div>
-
-            <div class="grid md:grid-cols-2 gap-8 mb-12">
-                <div class="bg-emerald-50 border border-emerald-200 rounded-3xl p-8">
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Volatility</h3>
-                    <p class="text-gray-700 leading-relaxed mb-4">The nature and dynamics of change, characterized by rapid, unpredictable fluctuations in the business environment. Markets shift quickly, technologies evolve rapidly, and competitive landscapes transform overnight.</p>
-                    <div class="bg-white rounded-xl p-4 border border-emerald-100">
-                        <p class="text-sm font-medium text-gray-900 mb-2">Key Characteristics:</p>
-                        <ul class="text-sm text-gray-700 space-y-1">
-                            <li>Rapid change</li>
-                            <li>Unpredictable fluctuations</li>
-                            <li>Short-term impacts</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="bg-blue-50 border border-blue-200 rounded-3xl p-8">
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Uncertainty</h3>
-                    <p class="text-gray-700 leading-relaxed mb-4">The lack of predictability in issues and events. Past experiences and historical data may not reliably predict future outcomes, making decision-making more challenging.</p>
-                    <div class="bg-white rounded-xl p-4 border border-blue-100">
-                        <p class="text-sm font-medium text-gray-900 mb-2">Key Characteristics:</p>
-                        <ul class="text-sm text-gray-700 space-y-1">
-                            <li>Limited predictability</li>
-                            <li>Unclear cause and effect</li>
-                            <li>Information gaps</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="bg-purple-50 border border-purple-200 rounded-3xl p-8">
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Complexity</h3>
-                    <p class="text-gray-700 leading-relaxed mb-4">The interconnectedness of multiple forces, issues, and factors. Problems are no longer linear or isolated but involve numerous variables that influence each other in sophisticated ways.</p>
-                    <div class="bg-white rounded-xl p-4 border border-purple-100">
-                        <p class="text-sm font-medium text-gray-900 mb-2">Key Characteristics:</p>
-                        <ul class="text-sm text-gray-700 space-y-1">
-                            <li>Multiple interconnected variables</li>
-                            <li>Systemic interdependencies</li>
-                            <li>Non-linear relationships</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="bg-amber-50 border border-amber-200 rounded-3xl p-8">
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Ambiguity</h3>
-                    <p class="text-gray-700 leading-relaxed mb-4">The lack of clarity about the meaning of events. Multiple interpretations are possible, and it's unclear which course of action to take because the situation itself is not well understood.</p>
-                    <div class="bg-white rounded-xl p-4 border border-amber-100">
-                        <p class="text-sm font-medium text-gray-900 mb-2">Key Characteristics:</p>
-                        <ul class="text-sm text-gray-700 space-y-1">
-                            <li>Multiple interpretations</li>
-                            <li>Unclear cause and effect</li>
-                            <li>Lack of precedents</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- VUCA Dimensions Visualization -->
-            <div class="mt-16 bg-gradient-to-br from-gray-50 to-white border border-gray-200 rounded-3xl p-4 sm:p-6 md:p-8 lg:p-12">
-                <h3 class="text-2xl font-bold text-gray-900 mb-8 text-center">VUCA Dimensions Framework</h3>
-                <div class="relative max-w-2xl mx-auto overflow-hidden">
-                    <svg viewBox="0 0 700 700" class="w-full h-auto" style="min-height: 400px;" preserveAspectRatio="xMidYMid meet">
-                        <defs>
-                            <style>
-                                @media (max-width: 640px) {
-                                    .svg-label { display: none; }
-                                }
-                            </style>
-                        </defs>
-                        <!-- Background circle -->
-                        <circle cx="350" cy="350" r="220" fill="none" stroke="#e5e7eb" stroke-width="2" opacity="0.5"/>
-                        
-                        <!-- Central hub -->
-                        <circle cx="350" cy="350" r="55" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-width="2.5"/>
-                        <text x="350" y="360" text-anchor="middle" font-size="16" font-weight="bold" fill="#111827">VUCA</text>
-                        
-                        <!-- Volatility - Top -->
-                        <g>
-                            <line x1="350" y1="295" x2="350" y2="130" stroke="#10b981" stroke-width="3" opacity="0.7"/>
-                            <circle cx="350" cy="130" r="48" fill="#d1fae5" stroke="#10b981" stroke-width="2.5"/>
-                            <text x="350" y="125" text-anchor="middle" font-size="18" font-weight="bold" fill="#047857">V</text>
-                            <text x="350" y="145" text-anchor="middle" font-size="11" font-weight="500" fill="#374151">Volatility</text>
-                            <path d="M 350 82 Q 370 60 390 45" fill="none" stroke="#10b981" stroke-width="1.5" opacity="0.5" stroke-dasharray="4,4"/>
-                            <text x="400" y="50" font-size="10" fill="#6b7280" class="svg-label">Rapid Change</text>
-                        </g>
-                        
-                        <!-- Uncertainty - Right -->
-                        <g>
-                            <line x1="405" y1="350" x2="520" y2="350" stroke="#3b82f6" stroke-width="3" opacity="0.7"/>
-                            <circle cx="520" cy="350" r="48" fill="#dbeafe" stroke="#3b82f6" stroke-width="2.5"/>
-                            <text x="520" y="345" text-anchor="middle" font-size="18" font-weight="bold" fill="#1e40af">U</text>
-                            <text x="520" y="365" text-anchor="middle" font-size="11" font-weight="500" fill="#374151">Uncertainty</text>
-                            <path d="M 568 350 Q 590 330 605 310" fill="none" stroke="#3b82f6" stroke-width="1.5" opacity="0.5" stroke-dasharray="4,4"/>
-                            <text x="620" y="315" font-size="10" fill="#6b7280" class="svg-label">Unpredictable</text>
-                        </g>
-                        
-                        <!-- Complexity - Bottom -->
-                        <g>
-                            <line x1="350" y1="405" x2="350" y2="570" stroke="#a855f7" stroke-width="3" opacity="0.7"/>
-                            <circle cx="350" cy="570" r="48" fill="#f3e8ff" stroke="#a855f7" stroke-width="2.5"/>
-                            <text x="350" y="565" text-anchor="middle" font-size="18" font-weight="bold" fill="#6b21a8">C</text>
-                            <text x="350" y="585" text-anchor="middle" font-size="11" font-weight="500" fill="#374151">Complexity</text>
-                            <path d="M 350 618 Q 330 640 310 655" fill="none" stroke="#a855f7" stroke-width="1.5" opacity="0.5" stroke-dasharray="4,4"/>
-                            <text x="280" y="660" font-size="10" fill="#6b7280" class="svg-label">Interconnected</text>
-                        </g>
-                        
-                        <!-- Ambiguity - Left -->
-                        <g>
-                            <line x1="295" y1="350" x2="180" y2="350" stroke="#f59e0b" stroke-width="3" opacity="0.7"/>
-                            <circle cx="180" cy="350" r="48" fill="#fef3c7" stroke="#f59e0b" stroke-width="2.5"/>
-                            <text x="180" y="345" text-anchor="middle" font-size="18" font-weight="bold" fill="#92400e">A</text>
-                            <text x="180" y="365" text-anchor="middle" font-size="11" font-weight="500" fill="#374151">Ambiguity</text>
-                            <path d="M 132 350 Q 110 330 95 310" fill="none" stroke="#f59e0b" stroke-width="1.5" opacity="0.5" stroke-dasharray="4,4"/>
-                            <text x="60" y="315" font-size="10" fill="#6b7280" class="svg-label">Multiple Views</text>
-                        </g>
-                        
-                        <!-- Interconnecting lines -->
-                        <path d="M 350 130 Q 435 240 520 350" fill="none" stroke="#e5e7eb" stroke-width="1.5" opacity="0.4" stroke-dasharray="3,3"/>
-                        <path d="M 520 350 Q 435 460 350 570" fill="none" stroke="#e5e7eb" stroke-width="1.5" opacity="0.4" stroke-dasharray="3,3"/>
-                        <path d="M 350 570 Q 265 460 180 350" fill="none" stroke="#e5e7eb" stroke-width="1.5" opacity="0.4" stroke-dasharray="3,3"/>
-                        <path d="M 180 350 Q 265 240 350 130" fill="none" stroke="#e5e7eb" stroke-width="1.5" opacity="0.4" stroke-dasharray="3,3"/>
-                    </svg>
-                </div>
-            </div>
-        </div>
+    <section class="py-16 bg-white">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-gray-900 mb-8">Practice and tools</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6"><a href="assessment.html" class="block rounded-3xl border border-gray-200 p-6 hover:border-emerald-300 hover:bg-emerald-50/40 transition">
+  <h3 class="text-lg font-bold text-gray-900 mb-2">Leadership assessment</h3>
+  <p class="text-sm text-gray-700 leading-relaxed">12-question self-assessment across VUCA dimensions.</p>
+</a><a href="org-assessment.html" class="block rounded-3xl border border-gray-200 p-6 hover:border-emerald-300 hover:bg-emerald-50/40 transition">
+  <h3 class="text-lg font-bold text-gray-900 mb-2">Organization diagnostic</h3>
+  <p class="text-sm text-gray-700 leading-relaxed">Team and org-level checklist with scoring guidance.</p>
+</a><a href="templates.html" class="block rounded-3xl border border-gray-200 p-6 hover:border-emerald-300 hover:bg-emerald-50/40 transition">
+  <h3 class="text-lg font-bold text-gray-900 mb-2">Templates</h3>
+  <p class="text-sm text-gray-700 leading-relaxed">Scorecards, scenario planning, and agility checklists.</p>
+</a><a href="action-guide.html" class="block rounded-3xl border border-gray-200 p-6 hover:border-emerald-300 hover:bg-emerald-50/40 transition">
+  <h3 class="text-lg font-bold text-gray-900 mb-2">Action guide</h3>
+  <p class="text-sm text-gray-700 leading-relaxed">Playbooks for career, teams, supply chain, strategy, and more.</p>
+</a><a href="examples.html" class="block rounded-3xl border border-gray-200 p-6 hover:border-emerald-300 hover:bg-emerald-50/40 transition">
+  <h3 class="text-lg font-bold text-gray-900 mb-2">Examples</h3>
+  <p class="text-sm text-gray-700 leading-relaxed">Contemporary events mapped to VUCA dimensions.</p>
+</a><a href="bibliography.html" class="block rounded-3xl border border-gray-200 p-6 hover:border-emerald-300 hover:bg-emerald-50/40 transition">
+  <h3 class="text-lg font-bold text-gray-900 mb-2">Bibliography</h3>
+  <p class="text-sm text-gray-700 leading-relaxed">Cited books and articles with outbound links.</p>
+</a></div>
+      </div>
     </section>
 
-    <!-- Origin and History -->
-    <section class="py-20 bg-gray-50">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-bold text-gray-900 mb-12">Origin and Evolution</h2>
-            
-            <div class="space-y-8">
-                <div class="bg-white rounded-3xl p-8 border border-gray-200">
-                    <div class="flex items-start gap-6">
-                        <div class="bg-emerald-100 text-emerald-700 rounded-xl px-4 py-2 font-bold text-xl">1987</div>
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-900 mb-2">U.S. Army War College</h3>
-                            <p class="text-gray-700 leading-relaxed">The term VUCA was introduced at the U.S. Army War College to describe the multilateral world that emerged after the Cold War. Military strategists needed a framework to understand the new geopolitical landscape where traditional planning and predictability no longer applied.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-3xl p-8 border border-gray-200">
-                    <div class="flex items-start gap-6">
-                        <div class="bg-emerald-100 text-emerald-700 rounded-xl px-4 py-2 font-bold text-xl">1990s</div>
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-900 mb-2">Adoption by Business Leaders</h3>
-                            <p class="text-gray-700 leading-relaxed">Bob Johansen and the Institute for the Future adapted VUCA for the business world, developing frameworks to help corporate leaders navigate complexity. The concept proved invaluable for understanding the challenges facing organizations in an increasingly globalized and interconnected economy.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-3xl p-8 border border-gray-200">
-                    <div class="flex items-start gap-6">
-                        <div class="bg-emerald-100 text-emerald-700 rounded-xl px-4 py-2 font-bold text-xl">2008</div>
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-900 mb-2">Financial Crisis Validation</h3>
-                            <p class="text-gray-700 leading-relaxed">The global financial crisis demonstrated the relevance of VUCA to business and economic systems. Leaders who understood VUCA principles were better equipped to navigate the unprecedented challenges and market disruptions.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-3xl p-8 border border-gray-200">
-                    <div class="flex items-start gap-6">
-                        <div class="bg-emerald-100 text-emerald-700 rounded-xl px-4 py-2 font-bold text-xl">2020+</div>
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-900 mb-2">Pandemic Era and Beyond</h3>
-                            <p class="text-gray-700 leading-relaxed">COVID-19, digital transformation, and climate change have made VUCA more relevant than ever. Organizations worldwide now recognize VUCA literacy as essential for survival and success in the modern business environment.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section class="py-16 bg-gray-50">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-gray-900 mb-6">Industry applications</h2>
+        <div class="flex flex-wrap gap-3"><a href="industry-healthcare.html" class="px-4 py-2 rounded-full border border-gray-200 text-sm text-gray-800 hover:border-emerald-400 hover:text-emerald-700">Healthcare</a><a href="industry-finance.html" class="px-4 py-2 rounded-full border border-gray-200 text-sm text-gray-800 hover:border-emerald-400 hover:text-emerald-700">Finance</a><a href="industry-supply-chain.html" class="px-4 py-2 rounded-full border border-gray-200 text-sm text-gray-800 hover:border-emerald-400 hover:text-emerald-700">Supply chain</a><a href="industry-tech.html" class="px-4 py-2 rounded-full border border-gray-200 text-sm text-gray-800 hover:border-emerald-400 hover:text-emerald-700">Technology</a><a href="industry-education.html" class="px-4 py-2 rounded-full border border-gray-200 text-sm text-gray-800 hover:border-emerald-400 hover:text-emerald-700">Education</a></div>
+        <p class="mt-8 text-sm text-gray-600">Methodology and sourcing: <a class="text-emerald-700 underline" href="about.html">About</a> · <a class="text-emerald-700 underline" href="editorial.html">Editorial standards</a> · Last updated 2026-11-22</p>
+      </div>
     </section>
 
-    <!-- VUCA Prime -->
-    <section class="py-20 bg-white">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-bold text-gray-900 mb-6">VUCA Prime: The Antidote</h2>
-            <p class="text-lg text-gray-700 leading-relaxed mb-12">Bob Johansen of the Institute for the Future developed VUCA Prime as a strategic response framework. Each element of VUCA has a corresponding positive attribute that leaders can cultivate.</p>
-            
-            <!-- VUCA to VUCA Prime Transformation Diagram -->
-            <div class="mb-16 bg-gradient-to-br from-emerald-50 via-white to-blue-50 border border-gray-200 rounded-3xl p-4 sm:p-6 md:p-8 lg:p-12">
-                <h3 class="text-2xl font-bold text-gray-900 mb-8 text-center">VUCA to VUCA Prime Transformation</h3>
-                <div class="relative max-w-4xl mx-auto overflow-hidden">
-                    <svg viewBox="0 0 900 450" class="w-full h-auto" style="min-height: 300px;" preserveAspectRatio="xMidYMid meet">
-                        <defs>
-                            <marker id="arrowhead-trans" markerWidth="11" markerHeight="11" refX="10.5" refY="5.5" orient="auto" markerUnits="userSpaceOnUse">
-                                <path d="M 0 0 L 11 5.5 L 0 11 Z" fill="#6b7280" opacity="0.8"/>
-                            </marker>
-                        </defs>
-                        
-                        <!-- Left side - VUCA -->
-                        <g>
-                            <rect x="40" y="40" width="320" height="360" rx="24" fill="#f9fafb" stroke="#e5e7eb" stroke-width="2.5"/>
-                            <text x="200" y="75" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">VUCA Challenge</text>
-                            
-                            <!-- Volatility -->
-                            <rect x="70" y="120" width="130" height="60" rx="10" fill="#d1fae5" stroke="#10b981" stroke-width="2.5"/>
-                            <text x="135" y="150" text-anchor="middle" font-size="14" font-weight="bold" fill="#047857">Volatility</text>
-                            
-                            <!-- Uncertainty -->
-                            <rect x="220" y="120" width="130" height="60" rx="10" fill="#dbeafe" stroke="#3b82f6" stroke-width="2.5"/>
-                            <text x="285" y="150" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e40af">Uncertainty</text>
-                            
-                            <!-- Complexity -->
-                            <rect x="70" y="200" width="130" height="60" rx="10" fill="#f3e8ff" stroke="#a855f7" stroke-width="2.5"/>
-                            <text x="135" y="230" text-anchor="middle" font-size="14" font-weight="bold" fill="#6b21a8">Complexity</text>
-                            
-                            <!-- Ambiguity -->
-                            <rect x="220" y="200" width="130" height="60" rx="10" fill="#fef3c7" stroke="#f59e0b" stroke-width="2.5"/>
-                            <text x="285" y="230" text-anchor="middle" font-size="14" font-weight="bold" fill="#92400e">Ambiguity</text>
-                        </g>
-                        
-                        <!-- Transformation arrows -->
-                        <g>
-                            <path d="M 360 150 Q 450 150 540 150" fill="none" stroke="#10b981" stroke-width="3.5" marker-end="url(#arrowhead-trans)" opacity="0.85"/>
-                            <path d="M 360 180 Q 450 180 540 180" fill="none" stroke="#3b82f6" stroke-width="3.5" marker-end="url(#arrowhead-trans)" opacity="0.85"/>
-                            <path d="M 360 230 Q 450 230 540 230" fill="none" stroke="#a855f7" stroke-width="3.5" marker-end="url(#arrowhead-trans)" opacity="0.85"/>
-                            <path d="M 360 260 Q 450 260 540 260" fill="none" stroke="#f59e0b" stroke-width="3.5" marker-end="url(#arrowhead-trans)" opacity="0.85"/>
-                        </g>
-                        
-                        <!-- Right side - VUCA Prime -->
-                        <g>
-                            <rect x="540" y="40" width="320" height="360" rx="24" fill="#f0fdf4" stroke="#10b981" stroke-width="2.5"/>
-                            <text x="700" y="75" text-anchor="middle" font-size="18" font-weight="bold" fill="#047857">VUCA Prime Response</text>
-                            
-                            <!-- Vision -->
-                            <rect x="570" y="120" width="130" height="60" rx="10" fill="#10b981" fill-opacity="0.25" stroke="#10b981" stroke-width="3"/>
-                            <text x="635" y="150" text-anchor="middle" font-size="14" font-weight="bold" fill="#047857">Vision</text>
-                            
-                            <!-- Understanding -->
-                            <rect x="720" y="120" width="130" height="60" rx="10" fill="#3b82f6" fill-opacity="0.25" stroke="#3b82f6" stroke-width="3"/>
-                            <text x="785" y="150" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e40af">Understanding</text>
-                            
-                            <!-- Clarity -->
-                            <rect x="570" y="200" width="130" height="60" rx="10" fill="#a855f7" fill-opacity="0.25" stroke="#a855f7" stroke-width="3"/>
-                            <text x="635" y="230" text-anchor="middle" font-size="14" font-weight="bold" fill="#6b21a8">Clarity</text>
-                            
-                            <!-- Agility -->
-                            <rect x="720" y="200" width="130" height="60" rx="10" fill="#f59e0b" fill-opacity="0.25" stroke="#f59e0b" stroke-width="3"/>
-                            <text x="785" y="230" text-anchor="middle" font-size="14" font-weight="bold" fill="#92400e">Agility</text>
-                        </g>
-                    </svg>
-                </div>
-            </div>
-            
-            <div class="grid md:grid-cols-2 gap-8">
-                <div class="bg-white border border-gray-200 rounded-3xl p-8">
-                    <div class="flex items-center justify-between mb-6">
-                        <span class="text-2xl font-bold text-emerald-600">Volatility</span>
-                        <span class="text-gray-400">→</span>
-                        <span class="text-2xl font-bold text-blue-600">Vision</span>
-                    </div>
-                    <p class="text-gray-700 leading-relaxed">Counter volatility with a clear vision. A compelling vision provides direction and stability during turbulent times, helping teams stay focused on long-term goals despite short-term fluctuations.</p>
-                </div>
-
-                <div class="bg-white border border-gray-200 rounded-3xl p-8">
-                    <div class="flex items-center justify-between mb-6">
-                        <span class="text-2xl font-bold text-emerald-600">Uncertainty</span>
-                        <span class="text-gray-400">→</span>
-                        <span class="text-2xl font-bold text-blue-600">Understanding</span>
-                    </div>
-                    <p class="text-gray-700 leading-relaxed">Address uncertainty by building understanding. Invest in learning, gather diverse perspectives, and develop deeper insights into market dynamics and customer needs to make better decisions.</p>
-                </div>
-
-                <div class="bg-white border border-gray-200 rounded-3xl p-8">
-                    <div class="flex items-center justify-between mb-6">
-                        <span class="text-2xl font-bold text-emerald-600">Complexity</span>
-                        <span class="text-gray-400">→</span>
-                        <span class="text-2xl font-bold text-blue-600">Clarity</span>
-                    </div>
-                    <p class="text-gray-700 leading-relaxed">Manage complexity with clarity. Simplify communication, clarify priorities, and make the complicated comprehensible. Clear frameworks help teams navigate complex situations effectively.</p>
-                </div>
-
-                <div class="bg-white border border-gray-200 rounded-3xl p-8">
-                    <div class="flex items-center justify-between mb-6">
-                        <span class="text-2xl font-bold text-emerald-600">Ambiguity</span>
-                        <span class="text-gray-400">→</span>
-                        <span class="text-2xl font-bold text-blue-600">Agility</span>
-                    </div>
-                    <p class="text-gray-700 leading-relaxed">Combat ambiguity with agility. Build flexible organizations that can adapt quickly, experiment with new approaches, and pivot when necessary. Agility enables rapid response to changing conditions.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- VUCA Leadership Response Model -->
-    <section class="py-20 bg-white">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-bold text-gray-900 mb-6">VUCA Leadership Response Model</h2>
-            <p class="text-lg text-gray-700 leading-relaxed mb-12">Effective leadership in VUCA environments requires different capabilities depending on which dimensions dominate. This model illustrates how leaders adapt their approach based on the primary VUCA challenge.</p>
-            
-            <div class="bg-gradient-to-br from-white via-gray-50 to-white border border-gray-200 rounded-3xl p-4 sm:p-6 md:p-8 lg:p-12">
-                <div class="relative max-w-3xl mx-auto overflow-hidden">
-                    <svg viewBox="0 0 750 750" class="w-full h-auto" style="min-height: 400px;" preserveAspectRatio="xMidYMid meet">
-                        <!-- Central leadership core -->
-                        <circle cx="375" cy="375" r="75" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="3.5"/>
-                        <text x="375" y="365" text-anchor="middle" font-size="16" font-weight="bold" fill="#047857">Leadership</text>
-                        <text x="375" y="385" text-anchor="middle" font-size="16" font-weight="bold" fill="#047857">Core</text>
-                        
-                        <!-- Volatility response -->
-                        <g>
-                            <path d="M 375 300 Q 375 240 375 180" fill="none" stroke="#10b981" stroke-width="3" opacity="0.8"/>
-                            <circle cx="375" cy="150" r="50" fill="#d1fae5" stroke="#10b981" stroke-width="3"/>
-                            <text x="375" y="143" text-anchor="middle" font-size="13" font-weight="bold" fill="#047857">Vision</text>
-                            <text x="375" y="160" text-anchor="middle" font-size="11" font-weight="500" fill="#374151">Stability</text>
-                            <rect x="280" y="80" width="190" height="35" rx="8" fill="#d1fae5" fill-opacity="0.9" stroke="#10b981" stroke-width="2"/>
-                            <text x="375" y="102" text-anchor="middle" font-size="11" font-weight="600" fill="#047857">Counter Volatility</text>
-                        </g>
-                        
-                        <!-- Uncertainty response -->
-                        <g>
-                            <path d="M 425 375 Q 480 375 540 375" fill="none" stroke="#3b82f6" stroke-width="3" opacity="0.8"/>
-                            <circle cx="600" cy="375" r="50" fill="#dbeafe" stroke="#3b82f6" stroke-width="3"/>
-                            <text x="600" y="368" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e40af">Understanding</text>
-                            <text x="600" y="385" text-anchor="middle" font-size="11" font-weight="500" fill="#374151">Learning</text>
-                            <rect x="550" y="320" width="110" height="35" rx="8" fill="#dbeafe" fill-opacity="0.9" stroke="#3b82f6" stroke-width="2"/>
-                            <text x="605" y="342" text-anchor="middle" font-size="11" font-weight="600" fill="#1e40af">Reduce Uncertainty</text>
-                        </g>
-                        
-                        <!-- Complexity response -->
-                        <g>
-                            <path d="M 375 450 Q 375 510 375 570" fill="none" stroke="#a855f7" stroke-width="3" opacity="0.8"/>
-                            <circle cx="375" cy="600" r="50" fill="#f3e8ff" stroke="#a855f7" stroke-width="3"/>
-                            <text x="375" y="593" text-anchor="middle" font-size="13" font-weight="bold" fill="#6b21a8">Clarity</text>
-                            <text x="375" y="610" text-anchor="middle" font-size="11" font-weight="500" fill="#374151">Simplification</text>
-                            <rect x="280" y="640" width="190" height="35" rx="8" fill="#f3e8ff" fill-opacity="0.9" stroke="#a855f7" stroke-width="2"/>
-                            <text x="375" y="662" text-anchor="middle" font-size="11" font-weight="600" fill="#6b21a8">Manage Complexity</text>
-                        </g>
-                        
-                        <!-- Ambiguity response -->
-                        <g>
-                            <path d="M 325 375 Q 270 375 210 375" fill="none" stroke="#f59e0b" stroke-width="3" opacity="0.8"/>
-                            <circle cx="150" cy="375" r="50" fill="#fef3c7" stroke="#f59e0b" stroke-width="3"/>
-                            <text x="150" y="368" text-anchor="middle" font-size="13" font-weight="bold" fill="#92400e">Agility</text>
-                            <text x="150" y="385" text-anchor="middle" font-size="11" font-weight="500" fill="#374151">Flexibility</text>
-                            <rect x="40" y="320" width="110" height="35" rx="8" fill="#fef3c7" fill-opacity="0.9" stroke="#f59e0b" stroke-width="2"/>
-                            <text x="95" y="342" text-anchor="middle" font-size="11" font-weight="600" fill="#92400e">Navigate Ambiguity</text>
-                        </g>
-                        
-                        <!-- Connecting lines showing integration -->
-                        <path d="M 375 150 Q 487 262 600 375" fill="none" stroke="#e5e7eb" stroke-width="2" opacity="0.5" stroke-dasharray="4,4"/>
-                        <path d="M 600 375 Q 487 487 375 600" fill="none" stroke="#e5e7eb" stroke-width="2" opacity="0.5" stroke-dasharray="4,4"/>
-                        <path d="M 375 600 Q 262 487 150 375" fill="none" stroke="#e5e7eb" stroke-width="2" opacity="0.5" stroke-dasharray="4,4"/>
-                        <path d="M 150 375 Q 262 262 375 150" fill="none" stroke="#e5e7eb" stroke-width="2" opacity="0.5" stroke-dasharray="4,4"/>
-                    </svg>
-                </div>
-                
-                <div class="mt-12 grid md:grid-cols-2 gap-6">
-                    <div class="space-y-4">
-                        <div class="flex items-start gap-4">
-                            <div class="w-3 h-3 rounded-full bg-emerald-500 mt-2 flex-shrink-0"></div>
-                            <div>
-                                <h4 class="font-bold text-gray-900 mb-1">Vision for Volatility</h4>
-                                <p class="text-sm text-gray-700">Create a compelling future state that provides direction during rapid changes. Communicate consistently to maintain focus.</p>
-                            </div>
-                        </div>
-                        <div class="flex items-start gap-4">
-                            <div class="w-3 h-3 rounded-full bg-blue-500 mt-2 flex-shrink-0"></div>
-                            <div>
-                                <h4 class="font-bold text-gray-900 mb-1">Understanding for Uncertainty</h4>
-                                <p class="text-sm text-gray-700">Invest in learning systems, gather diverse perspectives, and build knowledge networks to reduce information gaps.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="space-y-4">
-                        <div class="flex items-start gap-4">
-                            <div class="w-3 h-3 rounded-full bg-purple-500 mt-2 flex-shrink-0"></div>
-                            <div>
-                                <h4 class="font-bold text-gray-900 mb-1">Clarity for Complexity</h4>
-                                <p class="text-sm text-gray-700">Simplify communication, clarify priorities, and create frameworks that make complex systems comprehensible.</p>
-                            </div>
-                        </div>
-                        <div class="flex items-start gap-4">
-                            <div class="w-3 h-3 rounded-full bg-amber-500 mt-2 flex-shrink-0"></div>
-                            <div>
-                                <h4 class="font-bold text-gray-900 mb-1">Agility for Ambiguity</h4>
-                                <p class="text-sm text-gray-700">Build flexible structures, experiment with approaches, and maintain the ability to pivot when conditions change.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- VUCA Decision Matrix -->
-    <section class="py-20 bg-gray-50">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-bold text-gray-900 mb-6">VUCA Decision Matrix</h2>
-            <p class="text-lg text-gray-700 leading-relaxed mb-12">Understanding the intensity of each VUCA dimension helps leaders choose appropriate strategies. This matrix visualizes how different combinations of VUCA factors require different leadership approaches.</p>
-            
-            <div class="bg-white border border-gray-200 rounded-3xl p-4 sm:p-6 md:p-8 lg:p-12">
-                <div class="relative max-w-5xl mx-auto overflow-hidden">
-                    <svg viewBox="0 0 800 600" class="w-full h-auto" style="min-height: 400px;" preserveAspectRatio="xMidYMid meet">
-                        <defs>
-                            <pattern id="grid-matrix" width="25" height="25" patternUnits="userSpaceOnUse">
-                                <path d="M 25 0 L 0 0 0 25" fill="none" stroke="#f3f4f6" stroke-width="0.5"/>
-                            </pattern>
-                            <marker id="arrow-matrix" markerWidth="10" markerHeight="10" refX="9.5" refY="5" orient="auto" markerUnits="userSpaceOnUse">
-                                <path d="M 0 0 L 10 5 L 0 10 Z" fill="#374151"/>
-                            </marker>
-                        </defs>
-                        
-                        <!-- Grid background -->
-                        <rect width="800" height="600" fill="url(#grid-matrix)"/>
-                        
-                        <!-- Axes -->
-                        <line x1="120" y1="480" x2="680" y2="480" stroke="#374151" stroke-width="3" marker-end="url(#arrow-matrix)"/>
-                        <line x1="120" y1="480" x2="120" y2="120" stroke="#374151" stroke-width="3" marker-end="url(#arrow-matrix)"/>
-                        
-                        <!-- Axis labels -->
-                        <text x="400" y="530" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827">Predictability (Low → High)</text>
-                        <text x="50" y="300" text-anchor="middle" font-size="14" font-weight="bold" fill="#111827" transform="rotate(-90 50 300)">Complexity (Low → High)</text>
-                        
-                        <!-- Quadrant labels with better positioning -->
-                        <g>
-                            <text x="250" y="200" text-anchor="middle" font-size="12" font-weight="600" fill="#047857">High Volatility</text>
-                            <text x="250" y="220" text-anchor="middle" font-size="11" font-weight="500" fill="#6b7280">Low Complexity</text>
-                            
-                            <text x="550" y="200" text-anchor="middle" font-size="12" font-weight="600" fill="#6b21a8">High Volatility</text>
-                            <text x="550" y="220" text-anchor="middle" font-size="11" font-weight="500" fill="#6b7280">High Complexity</text>
-                            
-                            <text x="250" y="420" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">Low Volatility</text>
-                            <text x="250" y="440" text-anchor="middle" font-size="11" font-weight="500" fill="#6b7280">Low Complexity</text>
-                            
-                            <text x="550" y="420" text-anchor="middle" font-size="12" font-weight="600" fill="#1e40af">Low Volatility</text>
-                            <text x="550" y="440" text-anchor="middle" font-size="11" font-weight="500" fill="#6b7280">High Complexity</text>
-                        </g>
-                        
-                        <!-- Quadrant areas -->
-                        <rect x="120" y="120" width="280" height="360" fill="#d1fae5" fill-opacity="0.25" stroke="#10b981" stroke-width="2" stroke-dasharray="6,6"/>
-                        <rect x="400" y="120" width="280" height="360" fill="#f3e8ff" fill-opacity="0.25" stroke="#a855f7" stroke-width="2" stroke-dasharray="6,6"/>
-                        <rect x="120" y="300" width="280" height="180" fill="#fef3c7" fill-opacity="0.25" stroke="#f59e0b" stroke-width="2" stroke-dasharray="6,6"/>
-                        <rect x="400" y="300" width="280" height="180" fill="#dbeafe" fill-opacity="0.25" stroke="#3b82f6" stroke-width="2" stroke-dasharray="6,6"/>
-                        
-                        <!-- Strategy points with better visibility -->
-                        <g>
-                            <circle cx="250" cy="200" r="12" fill="#10b981" stroke="#ffffff" stroke-width="2"/>
-                            <text x="250" y="180" text-anchor="middle" font-size="11" font-weight="600" fill="#047857">Agile Response</text>
-                            
-                            <circle cx="550" cy="200" r="12" fill="#a855f7" stroke="#ffffff" stroke-width="2"/>
-                            <text x="550" y="180" text-anchor="middle" font-size="11" font-weight="600" fill="#6b21a8">System Thinking</text>
-                            
-                            <circle cx="250" cy="420" r="12" fill="#f59e0b" stroke="#ffffff" stroke-width="2"/>
-                            <text x="250" y="450" text-anchor="middle" font-size="11" font-weight="600" fill="#92400e">Standard Process</text>
-                            
-                            <circle cx="550" cy="420" r="12" fill="#3b82f6" stroke="#ffffff" stroke-width="2"/>
-                            <text x="550" y="450" text-anchor="middle" font-size="11" font-weight="600" fill="#1e40af">Adaptive Planning</text>
-                        </g>
-                    </svg>
-                </div>
-                
-                <div class="mt-8 grid md:grid-cols-2 gap-6">
-                    <div class="bg-emerald-50 border border-emerald-200 rounded-xl p-6">
-                        <h4 class="font-bold text-gray-900 mb-2">High Volatility, Low Complexity</h4>
-                        <p class="text-sm text-gray-700">Agile response strategies. Rapid adaptation to changing conditions with clear, simple frameworks.</p>
-                    </div>
-                    <div class="bg-purple-50 border border-purple-200 rounded-xl p-6">
-                        <h4 class="font-bold text-gray-900 mb-2">High Volatility, High Complexity</h4>
-                        <p class="text-sm text-gray-700">Systems thinking approach. Understand interconnections while maintaining flexibility to respond quickly.</p>
-                    </div>
-                    <div class="bg-amber-50 border border-amber-200 rounded-xl p-6">
-                        <h4 class="font-bold text-gray-900 mb-2">Low Volatility, Low Complexity</h4>
-                        <p class="text-sm text-gray-700">Standard processes work well. Focus on efficiency and optimization of established methods.</p>
-                    </div>
-                    <div class="bg-blue-50 border border-blue-200 rounded-xl p-6">
-                        <h4 class="font-bold text-gray-900 mb-2">Low Volatility, High Complexity</h4>
-                        <p class="text-sm text-gray-700">Adaptive planning. Deep analysis and careful design of systems that can handle intricate relationships.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- VUCA vs BANI -->
-    <section class="py-20 bg-gray-50">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-bold text-gray-900 mb-6">VUCA vs BANI: Evolution of Frameworks</h2>
-            <p class="text-lg text-gray-700 leading-relaxed mb-12">In 2020, Jamais Cascio introduced BANI as a successor to VUCA, arguing it better captures the nature of today's world. Both frameworks offer valuable perspectives for leaders.</p>
-            
-            <div class="grid md:grid-cols-2 gap-8">
-                <div class="bg-white rounded-3xl p-8 border border-emerald-200">
-                    <h3 class="text-2xl font-bold text-emerald-600 mb-6">VUCA Framework</h3>
-                    <div class="space-y-4">
-                        <div>
-                            <p class="font-bold text-gray-900">Volatility</p>
-                            <p class="text-sm text-gray-700">Rapid, unpredictable change</p>
-                        </div>
-                        <div>
-                            <p class="font-bold text-gray-900">Uncertainty</p>
-                            <p class="text-sm text-gray-700">Lack of predictability</p>
-                        </div>
-                        <div>
-                            <p class="font-bold text-gray-900">Complexity</p>
-                            <p class="text-sm text-gray-700">Interconnected variables</p>
-                        </div>
-                        <div>
-                            <p class="font-bold text-gray-900">Ambiguity</p>
-                            <p class="text-sm text-gray-700">Multiple interpretations</p>
-                        </div>
-                    </div>
-                    <div class="mt-6 pt-6 border-t border-gray-200">
-                        <p class="text-sm font-medium text-gray-900 mb-2">Best for:</p>
-                        <p class="text-sm text-gray-700">Strategic planning, risk management, traditional business environments</p>
-                    </div>
-                </div>
-
-                <div class="bg-white rounded-3xl p-8 border border-amber-200">
-                    <h3 class="text-2xl font-bold text-amber-600 mb-6">BANI Framework</h3>
-                    <div class="space-y-4">
-                        <div>
-                            <p class="font-bold text-gray-900">Brittle</p>
-                            <p class="text-sm text-gray-700">Systems appear strong but fail catastrophically</p>
-                        </div>
-                        <div>
-                            <p class="font-bold text-gray-900">Anxious</p>
-                            <p class="text-sm text-gray-700">Constant state of worry about unknown threats</p>
-                        </div>
-                        <div>
-                            <p class="font-bold text-gray-900">Non-linear</p>
-                            <p class="text-sm text-gray-700">Cause and effect are disconnected</p>
-                        </div>
-                        <div>
-                            <p class="font-bold text-gray-900">Incomprehensible</p>
-                            <p class="text-sm text-gray-700">Events defy understanding</p>
-                        </div>
-                    </div>
-                    <div class="mt-6 pt-6 border-t border-gray-200">
-                        <p class="text-sm font-medium text-gray-900 mb-2">Best for:</p>
-                        <p class="text-sm text-gray-700">Crisis management, system resilience, post-pandemic environments</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mt-8 bg-white rounded-3xl p-8 border border-gray-200">
-                <h4 class="text-xl font-bold text-gray-900 mb-4">Which Framework Should You Use?</h4>
-                <p class="text-gray-700 leading-relaxed mb-4">Both frameworks offer value. VUCA remains highly relevant for strategic planning and leadership development, with decades of research and practical applications. BANI provides additional insights into system fragility and psychological impacts, particularly relevant in crisis situations.</p>
-                <p class="text-gray-700 leading-relaxed">Many organizations use both frameworks complementarily: VUCA for strategic planning and leadership development, BANI for risk assessment and resilience building.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Practical Applications -->
-    <section class="py-20 bg-gray-50">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-bold text-gray-900 mb-12">VUCA in Practice: Industries and Applications</h2>
-            
-            <div class="grid md:grid-cols-3 gap-6">
-                <div class="bg-white border border-gray-200 rounded-3xl p-6 hover:border-emerald-300 transition">
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Business Strategy</h3>
-                    <p class="text-gray-700 text-sm leading-relaxed">Strategic planning frameworks, scenario analysis, risk management, competitive intelligence</p>
-                </div>
-
-                <div class="bg-white border border-gray-200 rounded-3xl p-6 hover:border-emerald-300 transition">
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Leadership Development</h3>
-                    <p class="text-gray-700 text-sm leading-relaxed">Adaptive leadership training, decision-making under pressure, change management skills</p>
-                </div>
-
-                <div class="bg-white border border-gray-200 rounded-3xl p-6 hover:border-emerald-300 transition">
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Project Management</h3>
-                    <p class="text-gray-700 text-sm leading-relaxed">Agile methodologies, adaptive planning, stakeholder management, risk mitigation</p>
-                </div>
-
-                <div class="bg-white border border-gray-200 rounded-3xl p-6 hover:border-emerald-300 transition">
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Healthcare</h3>
-                    <p class="text-gray-700 text-sm leading-relaxed">Crisis response, resource allocation, policy adaptation, pandemic management</p>
-                </div>
-
-                <div class="bg-white border border-gray-200 rounded-3xl p-6 hover:border-emerald-300 transition">
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Education</h3>
-                    <p class="text-gray-700 text-sm leading-relaxed">Curriculum design, skill development, adaptive learning, future-ready competencies</p>
-                </div>
-
-                <div class="bg-white border border-gray-200 rounded-3xl p-6 hover:border-emerald-300 transition">
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Supply Chain</h3>
-                    <p class="text-gray-700 text-sm leading-relaxed">Resilience planning, diversification strategies, risk assessment, contingency planning</p>
-                </div>
-
-                <div class="bg-white border border-gray-200 rounded-3xl p-6 hover:border-emerald-300 transition">
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Human Resources</h3>
-                    <p class="text-gray-700 text-sm leading-relaxed">Workforce planning, talent development, organizational agility, culture change</p>
-                </div>
-
-                <div class="bg-white border border-gray-200 rounded-3xl p-6 hover:border-emerald-300 transition">
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Technology</h3>
-                    <p class="text-gray-700 text-sm leading-relaxed">Digital transformation, innovation management, cybersecurity, platform strategy</p>
-                </div>
-
-                <div class="bg-white border border-gray-200 rounded-3xl p-6 hover:border-emerald-300 transition">
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Marketing</h3>
-                    <p class="text-gray-700 text-sm leading-relaxed">Customer behavior analysis, brand adaptability, channel strategy, market intelligence</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Cross-Industry Success Stories -->
-    <section class="py-20 bg-white">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-12">
-                <h2 class="text-4xl font-bold text-gray-900 mb-4">Cross-Industry VUCA Strategies</h2>
-                <p class="text-lg text-gray-700 max-w-3xl mx-auto">Proven tactics from diverse industries that can transform your approach. What works in finance might revolutionize manufacturing. What healthcare learned can empower retail.</p>
-            </div>
-
-            <div class="space-y-8">
-                <!-- Financial Services Case -->
-                <div class="bg-gradient-to-r from-emerald-50 to-white border border-emerald-200 rounded-3xl p-8">
-                    <div class="grid md:grid-cols-3 gap-8">
-                        <div>
-                            <h3 class="text-2xl font-bold text-gray-900 mb-3">Financial Services</h3>
-                            <p class="text-sm text-emerald-700 font-medium mb-4">Strategy: Regulatory Collaboration as Competitive Advantage</p>
-                            <p class="text-gray-700 text-sm leading-relaxed">Faced with constant regulatory changes, leading banks transformed compliance from cost center to innovation driver. They established proactive regulatory partnerships and built adaptable compliance frameworks.</p>
-                        </div>
-                        
-                        <div class="bg-white rounded-xl p-6 border border-gray-200">
-                            <p class="font-bold text-gray-900 mb-3">What They Did</p>
-                            <ul class="text-sm text-gray-700 space-y-2">
-                                <li>Created cross-functional compliance teams with business units</li>
-                                <li>Built modular systems that adapt to new regulations</li>
-                                <li>Engaged regulators early in product development</li>
-                                <li>Turned compliance data into business intelligence</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="bg-emerald-100 rounded-xl p-6">
-                            <p class="font-bold text-gray-900 mb-3">Apply to Your Industry</p>
-                            <ul class="text-sm text-gray-700 space-y-2">
-                                <li><span class="font-medium">Healthcare:</span> Partner with FDA early on device development</li>
-                                <li><span class="font-medium">Manufacturing:</span> Collaborate with EPA on sustainability initiatives</li>
-                                <li><span class="font-medium">Tech:</span> Work with privacy regulators on data protection</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Technology Sector Case -->
-                <div class="bg-gradient-to-r from-blue-50 to-white border border-blue-200 rounded-3xl p-8">
-                    <div class="grid md:grid-cols-3 gap-8">
-                        <div>
-                            <h3 class="text-2xl font-bold text-gray-900 mb-3">Technology Sector</h3>
-                            <p class="text-sm text-blue-700 font-medium mb-4">Strategy: Continuous Deployment Culture</p>
-                            <p class="text-gray-700 text-sm leading-relaxed">Tech companies developed rapid iteration cycles that allow them to respond to market changes within hours, not months. Their "ship fast, learn faster" approach minimizes risk through small, reversible changes.</p>
-                        </div>
-                        
-                        <div class="bg-white rounded-xl p-6 border border-gray-200">
-                            <p class="font-bold text-gray-900 mb-3">What They Did</p>
-                            <ul class="text-sm text-gray-700 space-y-2">
-                                <li>Automated testing and deployment pipelines</li>
-                                <li>Implemented feature flags for gradual rollouts</li>
-                                <li>Established blameless post-mortem culture</li>
-                                <li>Created real-time monitoring dashboards</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="bg-blue-100 rounded-xl p-6">
-                            <p class="font-bold text-gray-900 mb-3">Apply to Your Industry</p>
-                            <ul class="text-sm text-gray-700 space-y-2">
-                                <li><span class="font-medium">Retail:</span> Test pricing changes in small store clusters</li>
-                                <li><span class="font-medium">Education:</span> Pilot curriculum changes with single cohorts</li>
-                                <li><span class="font-medium">Hospitality:</span> A/B test service protocols at select properties</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Retail Industry Case -->
-                <div class="bg-gradient-to-r from-purple-50 to-white border border-purple-200 rounded-3xl p-8">
-                    <div class="grid md:grid-cols-3 gap-8">
-                        <div>
-                            <h3 class="text-2xl font-bold text-gray-900 mb-3">Retail Industry</h3>
-                            <p class="text-sm text-purple-700 font-medium mb-4">Strategy: Demand-Driven Supply Networks</p>
-                            <p class="text-gray-700 text-sm leading-relaxed">After supply chain disruptions, retailers shifted from push-based forecasting to pull-based sensing. They use real-time sales data to trigger dynamic replenishment and supplier collaboration.</p>
-                        </div>
-                        
-                        <div class="bg-white rounded-xl p-6 border border-gray-200">
-                            <p class="font-bold text-gray-900 mb-3">What They Did</p>
-                            <ul class="text-sm text-gray-700 space-y-2">
-                                <li>Connected POS systems directly to suppliers</li>
-                                <li>Shared inventory visibility across the network</li>
-                                <li>Created flexible fulfillment options</li>
-                                <li>Built regional micro-distribution centers</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="bg-purple-100 rounded-xl p-6">
-                            <p class="font-bold text-gray-900 mb-3">Apply to Your Industry</p>
-                            <ul class="text-sm text-gray-700 space-y-2">
-                                <li><span class="font-medium">Manufacturing:</span> Link production to actual customer orders</li>
-                                <li><span class="font-medium">Food Service:</span> Adjust menus based on ingredient availability</li>
-                                <li><span class="font-medium">Publishing:</span> Print-on-demand based on sales velocity</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Healthcare Case -->
-                <div class="bg-gradient-to-r from-red-50 to-white border border-red-200 rounded-3xl p-8">
-                    <div class="grid md:grid-cols-3 gap-8">
-                        <div>
-                            <h3 class="text-2xl font-bold text-gray-900 mb-3">Healthcare Systems</h3>
-                            <p class="text-sm text-red-700 font-medium mb-4">Strategy: Surge Capacity Architecture</p>
-                            <p class="text-gray-700 text-sm leading-relaxed">Pandemic response taught hospitals to design for elastic capacity. They developed modular units, cross-trained staff, and created rapid redeployment protocols that activate within hours.</p>
-                        </div>
-                        
-                        <div class="bg-white rounded-xl p-6 border border-gray-200">
-                            <p class="font-bold text-gray-900 mb-3">What They Did</p>
-                            <ul class="text-sm text-gray-700 space-y-2">
-                                <li>Trained nurses in multiple specialties</li>
-                                <li>Created convertible physical spaces</li>
-                                <li>Established equipment sharing networks</li>
-                                <li>Built telehealth overflow capacity</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="bg-red-100 rounded-xl p-6">
-                            <p class="font-bold text-gray-900 mb-3">Apply to Your Industry</p>
-                            <ul class="text-sm text-gray-700 space-y-2">
-                                <li><span class="font-medium">Customer Service:</span> Cross-train reps across product lines</li>
-                                <li><span class="font-medium">Logistics:</span> Design warehouses for multi-use scenarios</li>
-                                <li><span class="font-medium">Hospitality:</span> Create flex spaces for events or rooms</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Manufacturing Case -->
-                <div class="bg-gradient-to-r from-amber-50 to-white border border-amber-200 rounded-3xl p-8">
-                    <div class="grid md:grid-cols-3 gap-8">
-                        <div>
-                            <h3 class="text-2xl font-bold text-gray-900 mb-3">Advanced Manufacturing</h3>
-                            <p class="text-sm text-amber-700 font-medium mb-4">Strategy: Platform-Based Product Families</p>
-                            <p class="text-gray-700 text-sm leading-relaxed">Manufacturers adopted automotive industry's platform approach, creating common base architectures that support multiple product variants. This reduces complexity while increasing customization.</p>
-                        </div>
-                        
-                        <div class="bg-white rounded-xl p-6 border border-gray-200">
-                            <p class="font-bold text-gray-900 mb-3">What They Did</p>
-                            <ul class="text-sm text-gray-700 space-y-2">
-                                <li>Standardized 70% of components across products</li>
-                                <li>Created modular design libraries</li>
-                                <li>Delayed differentiation until final assembly</li>
-                                <li>Reduced SKU complexity by 40%</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="bg-amber-100 rounded-xl p-6">
-                            <p class="font-bold text-gray-900 mb-3">Apply to Your Industry</p>
-                            <ul class="text-sm text-gray-700 space-y-2">
-                                <li><span class="font-medium">Software:</span> Build core platform with pluggable modules</li>
-                                <li><span class="font-medium">Food Production:</span> Create base recipes with variable ingredients</li>
-                                <li><span class="font-medium">Consulting:</span> Develop standard frameworks with custom layers</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Education Case -->
-                <div class="bg-gradient-to-r from-indigo-50 to-white border border-indigo-200 rounded-3xl p-8">
-                    <div class="grid md:grid-cols-3 gap-8">
-                        <div>
-                            <h3 class="text-2xl font-bold text-gray-900 mb-3">Educational Institutions</h3>
-                            <p class="text-sm text-indigo-700 font-medium mb-4">Strategy: Competency-Based Learning Models</p>
-                            <p class="text-gray-700 text-sm leading-relaxed">Universities shifted from time-based to outcome-based education, allowing students to progress at their own pace. This model proved adaptable to both in-person and remote delivery.</p>
-                        </div>
-                        
-                        <div class="bg-white rounded-xl p-6 border border-gray-200">
-                            <p class="font-bold text-gray-900 mb-3">What They Did</p>
-                            <ul class="text-sm text-gray-700 space-y-2">
-                                <li>Defined clear skill milestones per course</li>
-                                <li>Created multiple paths to demonstrate mastery</li>
-                                <li>Implemented continuous assessment systems</li>
-                                <li>Unbundled content from delivery method</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="bg-indigo-100 rounded-xl p-6">
-                            <p class="font-bold text-gray-900 mb-3">Apply to Your Industry</p>
-                            <ul class="text-sm text-gray-700 space-y-2">
-                                <li><span class="font-medium">Corporate Training:</span> Focus on skill demonstration vs. hours</li>
-                                <li><span class="font-medium">Professional Services:</span> Define deliverables by outcomes</li>
-                                <li><span class="font-medium">Project Management:</span> Measure progress by capabilities gained</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mt-12 bg-gradient-to-r from-gray-50 to-white border border-gray-300 rounded-3xl p-8">
-                <h3 class="text-2xl font-bold text-gray-900 mb-4">The Cross-Pollination Principle</h3>
-                <div class="grid md:grid-cols-2 gap-8">
-                    <div>
-                        <p class="text-gray-700 mb-4 leading-relaxed">The most innovative VUCA responses come from borrowing strategies across industries. Financial services' risk management informs tech security. Healthcare's triage protocols improve customer service prioritization. Manufacturing's lean principles transform software development.</p>
-                        <p class="text-gray-700 leading-relaxed">When evaluating these strategies, ask: What is the underlying principle? How does it address uncertainty? Can we adapt this to our context?</p>
-                    </div>
-                    <div class="bg-white rounded-xl p-6 border border-gray-200">
-                        <p class="font-bold text-gray-900 mb-3">How to Adapt Cross-Industry Strategies</p>
-                        <ol class="text-sm text-gray-700 space-y-2 list-decimal list-inside">
-                            <li>Identify the core problem they solved</li>
-                            <li>Extract the underlying principle</li>
-                            <li>Map to your industry's constraints</li>
-                            <li>Run a small pilot before full rollout</li>
-                            <li>Measure impact against baseline metrics</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Assessment CTA Section -->
-    <section class="py-20 bg-gradient-to-br from-gray-50 to-white">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-white border-2 border-emerald-200 rounded-3xl p-8 md:p-12 shadow-lg">
-                <div class="grid md:grid-cols-2 gap-12 items-center">
-                    <div>
-                        <h2 class="text-4xl font-bold text-gray-900 mb-4">Ready to Assess Your VUCA Leadership?</h2>
-                        <p class="text-lg text-gray-700 mb-6">Take our comprehensive assessment to understand your strengths and identify areas for development across all four VUCA dimensions.</p>
-                        <ul class="space-y-3 mb-8">
-                            <li class="flex items-start">
-                                <span class="mr-3 mt-1 w-2 h-2 bg-emerald-500 rounded-full flex-shrink-0"></span>
-                                <span class="text-gray-700">Get detailed scores for Volatility, Uncertainty, Complexity, and Ambiguity</span>
-                            </li>
-                            <li class="flex items-start">
-                                <span class="mr-3 mt-1 w-2 h-2 bg-emerald-500 rounded-full flex-shrink-0"></span>
-                                <span class="text-gray-700">Receive personalized development recommendations</span>
-                            </li>
-                            <li class="flex items-start">
-                                <span class="mr-3 mt-1 w-2 h-2 bg-emerald-500 rounded-full flex-shrink-0"></span>
-                                <span class="text-gray-700">Access actionable next steps and learning resources</span>
-                            </li>
-                        </ul>
-                        <a href="assessment.html" class="group relative inline-block px-8 py-4 bg-emerald-600 text-white rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:bg-emerald-700">
-                            <span class="relative z-10 flex items-center gap-2">
-                                Take Assessment Now
-                                <svg class="w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
-                                </svg>
-                            </span>
-                        </a>
-                    </div>
-                    <div class="bg-gradient-to-br from-emerald-50 to-blue-50 rounded-2xl p-8 border border-emerald-100">
-                        <h3 class="text-2xl font-bold text-gray-900 mb-6">What You'll Get</h3>
-                        <div class="space-y-4">
-                            <div class="flex items-start gap-4">
-                                <div class="bg-emerald-600 text-white rounded-lg w-12 h-12 flex items-center justify-center font-bold flex-shrink-0">1</div>
-                                <div>
-                                    <h4 class="font-bold text-gray-900 mb-1">Overall VUCA Score</h4>
-                                    <p class="text-sm text-gray-700">Your total adaptability score out of 100</p>
-                                </div>
-                            </div>
-                            <div class="flex items-start gap-4">
-                                <div class="bg-blue-600 text-white rounded-lg w-12 h-12 flex items-center justify-center font-bold flex-shrink-0">2</div>
-                                <div>
-                                    <h4 class="font-bold text-gray-900 mb-1">Dimension Breakdown</h4>
-                                    <p class="text-sm text-gray-700">Individual scores for each VUCA dimension</p>
-                                </div>
-                            </div>
-                            <div class="flex items-start gap-4">
-                                <div class="bg-purple-600 text-white rounded-lg w-12 h-12 flex items-center justify-center font-bold flex-shrink-0">3</div>
-                                <div>
-                                    <h4 class="font-bold text-gray-900 mb-1">Personalized Insights</h4>
-                                    <p class="text-sm text-gray-700">Feedback and recommendations tailored to your results</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="py-20 bg-emerald-600 text-white">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-4xl font-bold mb-6">Explore VUCA Resources</h2>
-            <p class="text-xl text-emerald-50 mb-8">Deep dive into VUCA frameworks, leadership strategies, and practical implementation guides.</p>
-            <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="framework.html" class="px-8 py-3 bg-white text-emerald-600 rounded-lg font-medium hover:bg-emerald-50">Explore Framework</a>
-                <a href="leadership.html" class="px-8 py-3 border border-white text-white rounded-lg font-medium hover:bg-emerald-700">Leadership Guide</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
+    </main>
     <footer class="bg-gray-900 text-gray-300 py-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-4 gap-8">
-                <div>
-                    <h3 class="text-white font-bold text-lg mb-4">VUCA</h3>
-                    <p class="text-sm text-gray-400">Your comprehensive resource for understanding and navigating the VUCA world.</p>
+            <div class="grid md:grid-cols-5 gap-8">
+                <div class="md:col-span-1">
+                    <a href="/" class="text-2xl font-bold text-white">VUCA</a>
+                    <p class="mt-4 text-sm text-gray-400">Professional resource for VUCA education and leadership development.</p>
+                    <p class="mt-3 text-xs text-gray-500">Last updated: 2026-11-22</p>
                 </div>
                 <div>
-                    <h4 class="text-white font-medium mb-4">Learn</h4>
+                    <h3 class="text-white font-medium mb-4">Learn</h3>
                     <ul class="space-y-2 text-sm">
-                        <li><a href="/" class="hover:text-white">What is VUCA</a></li>
-                        <li><a href="framework.html" class="hover:text-white">VUCA Framework</a></li>
-                        <li><a href="examples.html" class="hover:text-white">Real Examples</a></li>
+                        <li><a href="what-is-vuca.html" class="hover:text-white">What is VUCA</a></li>
+                        <li><a href="history.html" class="hover:text-white">History</a></li>
+                        <li><a href="framework.html" class="hover:text-white">Framework</a></li>
+                        <li><a href="glossary.html" class="hover:text-white">Glossary</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h4 class="text-white font-medium mb-4">Practice</h4>
+                    <h3 class="text-white font-medium mb-4">Compare</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="frameworks-comparison.html" class="hover:text-white">All frameworks</a></li>
+                        <li><a href="vuca-vs-bani.html" class="hover:text-white">VUCA vs BANI</a></li>
+                        <li><a href="tuna.html" class="hover:text-white">TUNA</a></li>
+                        <li><a href="cynefin-and-vuca.html" class="hover:text-white">Cynefin</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white font-medium mb-4">Practice</h3>
                     <ul class="space-y-2 text-sm">
                         <li><a href="action-guide.html" class="hover:text-white">Action Guide</a></li>
-                        <li><a href="leadership.html" class="hover:text-white">Leadership Strategies</a></li>
-                        <li><a href="examples.html" class="hover:text-white">Industry Examples</a></li>
+                        <li><a href="assessment.html" class="hover:text-white">Assessment</a></li>
+                        <li><a href="templates.html" class="hover:text-white">Templates</a></li>
+                        <li><a href="org-assessment.html" class="hover:text-white">Org Diagnostic</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h4 class="text-white font-medium mb-4">Resources</h4>
+                    <h3 class="text-white font-medium mb-4">Trust</h3>
                     <ul class="space-y-2 text-sm">
-                        <li><a href="resources.html" class="hover:text-white">Books & Articles</a></li>
-                        <li><a href="resources.html#tools" class="hover:text-white">Tools & Templates</a></li>
-                        <li><a href="resources.html#case-studies" class="hover:text-white">Case Studies</a></li>
+                        <li><a href="bibliography.html" class="hover:text-white">Bibliography</a></li>
+                        <li><a href="faq.html" class="hover:text-white">FAQ</a></li>
+                        <li><a href="about.html" class="hover:text-white">About</a></li>
+                        <li><a href="editorial.html" class="hover:text-white">Editorial</a></li>
                     </ul>
                 </div>
             </div>
             <div class="border-t border-gray-800 mt-12 pt-8 text-sm text-center text-gray-400">
-                <p>2026 VUCA. Professional resource for VUCA education and leadership development.</p>
+                <p>2026 VUCA.cc. Professional resource for VUCA education and leadership development.</p>
             </div>
         </div>
     </footer>
-
     <script>
-        const mobileMenuButton = document.getElementById('mobile-menu-button');
-        const mobileMenu = document.getElementById('mobile-menu');
-        const menuIcon = document.getElementById('menu-icon');
-        const closeIcon = document.getElementById('close-icon');
-        const langButton = document.getElementById('lang-button');
-        const langMenu = document.getElementById('lang-menu');
-
-        mobileMenuButton.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-            menuIcon.classList.toggle('hidden');
-            closeIcon.classList.toggle('hidden');
-        });
-
-        langButton.addEventListener('click', (e) => {
-            e.stopPropagation();
-            langMenu.classList.toggle('hidden');
-        });
-
-        document.addEventListener('click', (e) => {
-            if (!langButton.contains(e.target) && !langMenu.contains(e.target)) {
-                langMenu.classList.add('hidden');
+        (function () {
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const menuIcon = document.getElementById('menu-icon');
+            const closeIcon = document.getElementById('close-icon');
+            const langButton = document.getElementById('lang-button');
+            const langMenu = document.getElementById('lang-menu');
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    if (menuIcon) menuIcon.classList.toggle('hidden');
+                    if (closeIcon) closeIcon.classList.toggle('hidden');
+                });
             }
-        });
-
-        // Auto-update language switcher links based on current page
-(function() {
-            const currentPage = window.location.pathname.split('/').pop() || 'index.html';
-            const langLinkEn = document.getElementById('lang-link-en');
-            const langLinkJa = document.getElementById('lang-link-ja');
-            const langLinkDe = document.getElementById('lang-link-de');
-            const langLinkZh = document.getElementById('lang-link-zh');
-            const langLinkEnMobile = document.getElementById('lang-link-en-mobile');
-            const langLinkJaMobile = document.getElementById('lang-link-ja-mobile');
-            const langLinkDeMobile = document.getElementById('lang-link-de-mobile');
-            const langLinkZhMobile = document.getElementById('lang-link-zh-mobile');
-
-            const enHref = currentPage === 'index.html' ? '/' : currentPage;
-            const jaHref = currentPage === 'index.html' ? '/ja/' : 'ja/' + currentPage;
-            const deHref = currentPage === 'index.html' ? '/de/' : 'de/' + currentPage;
-            const zhHref = currentPage === 'index.html' ? '/zh/' : 'zh/' + currentPage;
-
-            if (langLinkEn) langLinkEn.href = enHref;
-            if (langLinkJa) langLinkJa.href = jaHref;
-            if (langLinkDe) langLinkDe.href = deHref;
-            if (langLinkZh) langLinkZh.href = zhHref;
-            if (langLinkEnMobile) langLinkEnMobile.href = enHref;
-            if (langLinkJaMobile) langLinkJaMobile.href = jaHref;
-            if (langLinkDeMobile) langLinkDeMobile.href = deHref;
-            if (langLinkZhMobile) langLinkZhMobile.href = zhHref;
+            if (langButton && langMenu) {
+                langButton.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    langMenu.classList.toggle('hidden');
+                });
+                document.addEventListener('click', (e) => {
+                    if (!langButton.contains(e.target) && !langMenu.contains(e.target)) {
+                        langMenu.classList.add('hidden');
+                    }
+                });
+            }
+            const parts = window.location.pathname.replace(/\/+$/, '').split('/').filter(Boolean);
+            let page = 'index.html';
+            if (parts.length === 0) page = 'index.html';
+            else if (parts[parts.length - 1].endsWith('.html')) page = parts[parts.length - 1];
+            else if (['ja', 'de', 'zh'].includes(parts[parts.length - 1])) page = 'index.html';
+            const en = page === 'index.html' ? '/' : '/' + page;
+            const ja = page === 'index.html' ? '/ja/' : '/ja/' + page;
+            const de = page === 'index.html' ? '/de/' : '/de/' + page;
+            const zh = page === 'index.html' ? '/zh/' : '/zh/' + page;
+            const map = { 'lang-link-en': en, 'lang-link-ja': ja, 'lang-link-de': de, 'lang-link-zh': zh,
+                'lang-link-en-mobile': en, 'lang-link-ja-mobile': ja, 'lang-link-de-mobile': de, 'lang-link-zh-mobile': zh };
+            Object.keys(map).forEach((id) => { const el = document.getElementById(id); if (el) el.href = map[id]; });
         })();
     </script>
-
 </body>
 </html>

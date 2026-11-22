@@ -1,0 +1,11 @@
+{
+  "name": "vuca-cc",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i ./css/input.css -o ./css/site.css --minify",
+    "watch:css": "tailwindcss -i ./css/input.css -o ./css/site.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

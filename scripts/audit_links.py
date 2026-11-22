@@ -14,6 +14,32 @@ PAGES = {
     "examples.html",
     "resources.html",
     "assessment.html",
+    "about.html",
+    "what-is-vuca.html",
+    "history.html",
+    "vuca-prime.html",
+    "vuca-vs-bani.html",
+    "tuna.html",
+    "rupt.html",
+    "cynefin-and-vuca.html",
+    "frameworks-comparison.html",
+    "glossary.html",
+    "volatility.html",
+    "uncertainty.html",
+    "complexity.html",
+    "ambiguity.html",
+    "faq.html",
+    "bibliography.html",
+    "editorial.html",
+    "templates.html",
+    "org-assessment.html",
+    "industry-healthcare.html",
+    "industry-finance.html",
+    "industry-supply-chain.html",
+    "industry-tech.html",
+    "industry-education.html",
+    "case-netflix.html",
+    "case-toyota.html",
 }
 LOCALES = {"", "ja", "de", "zh"}
 BAD_DOUBLE_LOCALE = re.compile(r"/(de|ja|zh)/(de|ja|zh)/")
@@ -141,9 +167,18 @@ def audit():
                 if not path_exists(resolved):
                     issues.append(f"{rel}: href={href!r} → {resolved} (target missing)")
 
-        # Missing lang link updater
-        if page in PAGES and "lang-link-en" in text and "langLinkEn" not in text and "langLinkEn.href" not in text:
-            issues.append(f"{rel}: language menu present but no JS href updater")
+        # Missing lang link updater (legacy langLinkEn or seo_kit absolute-path map)
+        if page in PAGES and "lang-link-en" in text:
+            has_updater = (
+                "langLinkEn" in text
+                or "langLinkEn.href" in text
+                or "Object.keys(map)" in text
+                or "/ja/' + page" in text
+                or '"/ja/" + page' in text
+                or "/ja/' : '/ja/' + page" in text
+            )
+            if not has_updater:
+                issues.append(f"{rel}: language menu present but no JS href updater")
 
         # Duplicate nav scripts on index
         if f.name == "index.html":

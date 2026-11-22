@@ -1,0 +1,32 @@
+# VUCA.cc
+
+> Professional multilingual knowledge base for VUCA, leadership, and adjacent frameworks (BANI, TUNA, RUPT, Cynefin).
+
+## Primary
+- [Home](https://vuca.cc/): Hub
+- [What is VUCA](https://vuca.cc/what-is-vuca.html)
+- [History](https://vuca.cc/history.html)
+- [VUCA Prime](https://vuca.cc/vuca-prime.html)
+- [Framework](https://vuca.cc/framework.html)
+- [Framework comparison](https://vuca.cc/frameworks-comparison.html)
+- [Glossary](https://vuca.cc/glossary.html)
+- [FAQ](https://vuca.cc/faq.html)
+- [Leadership](https://vuca.cc/leadership.html)
+- [Assessment](https://vuca.cc/assessment.html)
+- [Org diagnostic](https://vuca.cc/org-assessment.html)
+- [Templates](https://vuca.cc/templates.html)
+- [Bibliography](https://vuca.cc/bibliography.html)
+- [About](https://vuca.cc/about.html)
+- [Editorial](https://vuca.cc/editorial.html)
+
+## Dimensions
+- /volatility.html /uncertainty.html /complexity.html /ambiguity.html
+
+## Adjacent frameworks
+- /vuca-vs-bani.html /tuna.html /rupt.html /cynefin-and-vuca.html
+
+## Industries
+- /industry-healthcare.html /industry-finance.html /industry-supply-chain.html /industry-tech.html /industry-education.html
+
+## Languages
+English (default), Japanese (/ja/), German (/de/), Simplified Chinese (/zh/) — hreflang on every page.
